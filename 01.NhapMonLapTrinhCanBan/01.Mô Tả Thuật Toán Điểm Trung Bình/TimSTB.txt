@@ -1,0 +1,5 @@
+BEGIN
+	INPUT to,ly,hoa
+	tb=(to+ly+hoa)/3
+	DISPLAY tb
+END

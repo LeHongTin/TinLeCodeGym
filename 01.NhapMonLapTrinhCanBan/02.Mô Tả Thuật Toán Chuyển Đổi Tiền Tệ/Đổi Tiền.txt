@@ -1,0 +1,5 @@
+BEGIN
+	INPUT do
+	vnd = do*23000
+	DISPLAY vnd
+END

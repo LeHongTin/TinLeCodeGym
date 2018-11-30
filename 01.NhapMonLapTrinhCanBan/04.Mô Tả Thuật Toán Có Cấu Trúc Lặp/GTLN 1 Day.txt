@@ -1,0 +1,7 @@
+BEGIN
+	INPUT a[i]
+	max= a1
+	WHILE i<=n
+		IF a[i] > max
+		max = a[i]
+END

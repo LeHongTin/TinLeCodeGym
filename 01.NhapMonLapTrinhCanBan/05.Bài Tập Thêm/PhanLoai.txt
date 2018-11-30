@@ -1,0 +1,17 @@
+BEGIN
+	INPUT a[i]
+	IF a[i] >=75 
+	    DISPLAY LOAI A
+	ELSE
+	    IF a[i]>=60
+	       DISPLAY LOAI B
+	    ELSE
+		IF A[i]>=45 
+		  DISPLAY LOAI C
+		ELSE
+		    IF a[i]>=35 
+			DISPLAY LOAI D
+		    ELSE 
+			DISPLAY LOAI E
+	END IF
+END
