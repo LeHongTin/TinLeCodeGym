@@ -1,0 +1,36 @@
+<script>
+    var str = "  We don't talk anymore!  "
+    var str2 = "  Don't let me down!  "
+    var length = str.length;
+    document.write("Length of string is : ", length + "<br>");
+
+    var replace = str.replace("d", "D");
+    document.write("Replace of string is : ", replace + "<br>");
+
+    var uppercase = str.toUpperCase();
+    document.write("Upper Case of string is : ", uppercase + "<br>");
+
+    var lowercase = str.toLowerCase();
+    document.write("Lower Case of string is : ", lowercase + "<br>");
+
+    var concat = str + str2;
+    document.write("Concat Case of string is : ", concat + "<br>");
+
+    var trim = str.trim();
+    document.write("Trim Case of string is : ", trim +"<br>");
+    document.write(trim.length + "<br>");
+
+    var slice = str.slice(16,23);
+    document.write("Slice Case from 16 to 23 string is : ", slice +"<br>");
+
+    var index = str.indexOf("a");
+    document.write("Index Case 'a' string is : ", index +"<br>");
+
+    var lastIndex= str.lastIndexOf("a");
+    document.write("Last Index of 'a' string is : ", lastIndex +"<br>");
+
+    var charAt = str.charAt(13);
+    document.write("Char at 13 is: ", charAt);    
+
+
+</script>

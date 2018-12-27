@@ -1,0 +1,20 @@
+<script>
+    function Circle(radius) {
+        this.radius = radius;
+        this.color = "red";
+        this.Cirle = function () {
+            return this.radius + "" + this.color;
+        }
+        this.getRadius = function () {
+            return radius;
+        }
+        this.getArea = function () {
+            return Math.PI * radius * radius;
+        }
+    }
+    var circle = new Circle(2);
+    var radius = circle.getRadius();
+    var area = circle.getArea();
+    console.log("radius: " + radius + "; area: " + area);
+    document.write("Radius is: " + radius + ";" + "<br>" + " Area is: " + area);
+</script>

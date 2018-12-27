@@ -1,0 +1,18 @@
+<script>
+    function Temperature(celsius) {
+        this.celsius = celsius;
+        this.getFahrenhiet = function () {
+            return this.celsius * 1.8 + 32;
+        }
+        this.getKelvin = function () {
+            return this.celsius + 273;
+        }
+    }
+    var celsius = new Temperature(0);
+    var fahrenhiet = celsius.getFahrenhiet();
+    var kelvin = celsius.getKelvin();
+    document.write("Chuyen sang do F la:" + fahrenhiet+ "<br>");
+    console.log("Chuyen sang do F la:" + fahrenhiet + "<br>");
+    document.write("Chuyen sang do k la: " + kelvin);
+
+</script>

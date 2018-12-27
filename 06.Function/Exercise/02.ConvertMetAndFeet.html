@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đơn vị độ dài</title>
+</head>
+
+<body>
+    <p> Met
+        <input type="number" id="inputLength1" placeholder="Length1" 
+        oninput="lengthConverter1(this.value)" 
+        onchange="lengthConverter1(this.value)">
+        to leet: <span id="outputLength1"></span></p>
+    <p> Feet
+        <input type="number" id="inputLength2" placeholder="Length2" 
+        oninput="lengthConverter2(this.value)" 
+        onchange="lengthConverter2(this.value)">
+        to met: <span id="outputLength2"></span></p>
+    <script>
+        function lengthConverter1(valNum) {
+            valNum = parseFloat(valNum);
+            document.getElementById("outputLength1").innerHTML = valNum *3.279;
+        }
+
+         function lengthConverter2(valNum2) {
+            valNum2 = parseFloat(valNum2);
+            document.getElementById("outputLength2").innerHTML = valNum2 /3.279;
+        }
+    </script>
+</body>
+
+</html>

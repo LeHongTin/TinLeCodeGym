@@ -1,0 +1,35 @@
+<script>
+    var num = [];
+    for (var i = 0; i < 100; i++) {
+        num[i] = Math.floor(Math.random() *60  + 40);
+    }
+
+    num.sort(function (a, b) {
+        return a - b;
+    });
+    for (var i = 0; i < 100; i++) {
+        if (i > 0 && i % 10 == 0) {
+            document.write("<br>")
+        }
+        document.write(num[i] + " ");
+    }
+
+document.write(num);
+    var mid = Math.floor(num.length / 2)
+    result = true;
+    var tong = mid;
+    while (result) {
+        if (num[mid] == 56) {
+            result = false;
+        } else if (num[mid] > 50) {
+            mid = Math.floor(tong / 2);
+            tong += mid;
+            result = true;
+        } else {
+            mid = Math.floor((num.length + mid) / 2);
+            result = true;
+        }
+    }
+    document.write("<br>" + mid);
+
+</script>

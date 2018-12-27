@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Products CRUD</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+
+    <h3>Add New Product</h3>
+
+    <input type="text" id="add-name" placeholder="New Product">
+    <input type="submit" value="Add" onclick="app.add()">
+
+
+    <h3>Display All Product</h3>
+    <table>
+        <tr>
+            <th>Product Name</th>
+            <th style="text-align: right">
+                <p id="counter"></p>
+            </th>
+        </tr>
+        <tbody id="products">
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+
+
+    <div id="spoiler">
+        <h3>Edit Product</h3>
+        <input type="text" id="edit-name">
+        <input type="submit" value="Edit" id="saveEdit" /> <a onclick="closeInput()" aria-label="Close">&#10006;</a>
+    </div>
+    </p>
+
+</body>
+
+</html>
