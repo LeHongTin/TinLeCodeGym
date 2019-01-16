@@ -38,7 +38,7 @@ function Telephone(name) {
         toPhone.receiveMess(this.message);
         this.message = "";
         // this.drafMess.pull();
-    }
+    }   
 
     this.showAllMessage = function() {
         for (var i = 0; i < this.memoryInbox.length; i++) {
@@ -63,3 +63,5 @@ iPhone.showAllMessage();
 iPhone.createMessage("Hello Nokia From Iphone");
 iPhone.sendMess(nokia);
 nokia.showAllMessage();
+var pin1= iPhone.pin;
+document.write(pin1);

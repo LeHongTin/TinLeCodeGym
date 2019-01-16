@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<form>
+    <div style="border: 1px chocolate solid;width: 110px; padding: 0px 20px 20px 20px" type="text" id="ketqua" value=""
+        readonly><br>
+        <input id="ketqua" type="text" style="width:100px" readonly>
+        <p></p>
+        <div>
+            <input type="button" value="7" onclick="ketqua.value+=this.value">
+            <input type="button" value="8" onclick="ketqua.value+=this.value">
+            <input type="button" value="9" onclick="ketqua.value+=this.value">
+            <input type="button" value="/" onclick="ketqua.value+=this.value" style="width:25px">
+        </div>
+        <p></p>
+        <div>
+            <input type="button" value="4" onclick="ketqua.value+=this.value">
+            <input type="button" value="5" onclick="ketqua.value+=this.value">
+            <input type="button" value="6" onclick="ketqua.value+=this.value">
+            <input type="button" value="*" onclick="ketqua.value+=this.value" style="width:25px">
+        </div>
+        <p></p>
+        <div>
+            <input type="button" value="1" onclick="ketqua.value+=this.value">
+            <input type="button" value="2" onclick="ketqua.value+=this.value">
+            <input type="button" value="3" onclick="ketqua.value+=this.value">
+            <input type="button" value="+" onclick="ketqua.value+=this.value" style="width:25px">
+        </div>
+        <p></p>
+        <div>
+            <input type="button" value="0" onclick="ketqua.value+=this.value">
+            <input type="button" value="." onclick="ketqua.value+=this.value">
+            <input type="button" value="=" onclick="ketqua.value=eval(ketqua.value)">
+            <input type="button" value="-" onclick="ketqua.value+=this.value" style="width:25px">
+        </div>
+        <p></p>
+        <div>
+            <input type="reset" value="Reset">
+        </div>
+    </div>
+</form>
+
+</html>

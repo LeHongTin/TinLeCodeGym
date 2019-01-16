@@ -1,0 +1,1401 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)https://james.codegym.vn/mod/assign/view.php?id=2667&forceview=1 -->
+<html dir="ltr" lang="en" xml:lang="en" class="yui3-js-enabled js-menubar"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Assignment</title>
+    <link rel="shortcut icon" href="https://james.codegym.vn/pluginfile.php/1/theme_remui/faviconurl/1545987165/icon.png">
+    
+<meta name="keywords" content="moodle, Assignment">
+<link rel="stylesheet" type="text/css" href="./Assignment_files/combo"><script charset="utf-8" id="yui_3_17_2_1_1547112330543_8" src="./Assignment_files/combo(1)" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1547112330543_19" src="./Assignment_files/javascript.php" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1547112330543_20" src="./Assignment_files/combo(2)" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1547112330543_21" src="./Assignment_files/combo(3)" async=""></script><script charset="utf-8" id="yui_3_17_2_1_1547112330543_37" src="./Assignment_files/combo(4)" async=""></script><script id="firstthemesheet" type="text/css">/** Required in order to fix style inclusion problems in IE with YUI **/</script><link rel="stylesheet" type="text/css" href="./Assignment_files/styles.php">
+<link rel="stylesheet" type="text/css" href="./Assignment_files/atom-one-light.min.css">
+<script type="text/javascript">
+//<![CDATA[
+var M = {}; M.yui = {};
+M.pageloadstarttime = new Date();
+M.cfg = {"wwwroot":"https:\/\/james.codegym.vn","sesskey":"tWL4Fk4aZp","themerev":"1545987165","slasharguments":1,"theme":"remui","iconsystemmodule":"core\/icon_system_fontawesome","jsrev":"1545987165","admin":"admin","svgicons":true,"usertimezone":"Asia\/Ho_Chi_Minh","contextid":10833};var yui1ConfigFn = function(me) {if(/-skin|reset|fonts|grids|base/.test(me.name)){me.type='css';me.path=me.path.replace(/\.js/,'.css');me.path=me.path.replace(/\/yui2-skin/,'/assets/skins/sam/yui2-skin')}};
+var yui2ConfigFn = function(me) {var parts=me.name.replace(/^moodle-/,'').split('-'),component=parts.shift(),module=parts[0],min='-min';if(/-(skin|core)$/.test(me.name)){parts.pop();me.type='css';min=''}
+if(module){var filename=parts.join('-');me.path=component+'/'+module+'/'+filename+min+'.'+me.type}else{me.path=component+'/'+component+'.'+me.type}};
+YUI_config = {"debug":false,"base":"https:\/\/james.codegym.vn\/lib\/yuilib\/3.17.2\/","comboBase":"https:\/\/james.codegym.vn\/theme\/yui_combo.php?","combine":true,"filter":null,"insertBefore":"firstthemesheet","groups":{"yui2":{"base":"https:\/\/james.codegym.vn\/lib\/yuilib\/2in3\/2.9.0\/build\/","comboBase":"https:\/\/james.codegym.vn\/theme\/yui_combo.php?","combine":true,"ext":false,"root":"2in3\/2.9.0\/build\/","patterns":{"yui2-":{"group":"yui2","configFn":yui1ConfigFn}}},"moodle":{"name":"moodle","base":"https:\/\/james.codegym.vn\/theme\/yui_combo.php?m\/1545987165\/","combine":true,"comboBase":"https:\/\/james.codegym.vn\/theme\/yui_combo.php?","ext":false,"root":"m\/1545987165\/","patterns":{"moodle-":{"group":"moodle","configFn":yui2ConfigFn}},"filter":null,"modules":{"moodle-core-lockscroll":{"requires":["plugin","base-build"]},"moodle-core-formchangechecker":{"requires":["base","event-focus","moodle-core-event"]},"moodle-core-tooltip":{"requires":["base","node","io-base","moodle-core-notification-dialogue","json-parse","widget-position","widget-position-align","event-outside","cache-base"]},"moodle-core-event":{"requires":["event-custom"]},"moodle-core-dragdrop":{"requires":["base","node","io","dom","dd","event-key","event-focus","moodle-core-notification"]},"moodle-core-notification":{"requires":["moodle-core-notification-dialogue","moodle-core-notification-alert","moodle-core-notification-confirm","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-core-notification-dialogue":{"requires":["base","node","panel","escape","event-key","dd-plugin","moodle-core-widget-focusafterclose","moodle-core-lockscroll"]},"moodle-core-notification-alert":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-confirm":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-exception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-notification-ajaxexception":{"requires":["moodle-core-notification-dialogue"]},"moodle-core-popuphelp":{"requires":["moodle-core-tooltip"]},"moodle-core-languninstallconfirm":{"requires":["base","node","moodle-core-notification-confirm","moodle-core-notification-alert"]},"moodle-core-actionmenu":{"requires":["base","event","node-event-simulate"]},"moodle-core-blocks":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification"]},"moodle-core-checknet":{"requires":["base-base","moodle-core-notification-alert","io-base"]},"moodle-core-handlebars":{"condition":{"trigger":"handlebars","when":"after"}},"moodle-core-maintenancemodetimer":{"requires":["base","node"]},"moodle-core-dock":{"requires":["base","node","event-custom","event-mouseenter","event-resize","escape","moodle-core-dock-loader","moodle-core-event"]},"moodle-core-dock-loader":{"requires":["escape"]},"moodle-core-chooserdialogue":{"requires":["base","panel","moodle-core-notification"]},"moodle-core_availability-form":{"requires":["base","node","event","event-delegate","panel","moodle-core-notification-dialogue","json"]},"moodle-backup-confirmcancel":{"requires":["node","node-event-simulate","moodle-core-notification-confirm"]},"moodle-backup-backupselectall":{"requires":["node","event","node-event-simulate","anim"]},"moodle-course-management":{"requires":["base","node","io-base","moodle-core-notification-exception","json-parse","dd-constrain","dd-proxy","dd-drop","dd-delegate","node-event-delegate"]},"moodle-course-util":{"requires":["node"],"use":["moodle-course-util-base"],"submodules":{"moodle-course-util-base":{},"moodle-course-util-section":{"requires":["node","moodle-course-util-base"]},"moodle-course-util-cm":{"requires":["node","moodle-course-util-base"]}}},"moodle-course-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-course-coursebase","moodle-course-util"]},"moodle-course-modchooser":{"requires":["moodle-core-chooserdialogue","moodle-course-coursebase"]},"moodle-course-categoryexpander":{"requires":["node","event-key"]},"moodle-course-formatchooser":{"requires":["base","node","node-event-simulate"]},"moodle-form-dateselector":{"requires":["base","node","overlay","calendar"]},"moodle-form-passwordunmask":{"requires":[]},"moodle-form-showadvanced":{"requires":["node","base","selector-css3"]},"moodle-form-shortforms":{"requires":["node","base","selector-css3","moodle-core-event"]},"moodle-question-preview":{"requires":["base","dom","event-delegate","event-key","core_question_engine"]},"moodle-question-searchform":{"requires":["base","node"]},"moodle-question-chooser":{"requires":["moodle-core-chooserdialogue"]},"moodle-question-qbankmanager":{"requires":["node","selector-css3"]},"moodle-availability_completion-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_date-form":{"requires":["base","node","event","io","moodle-core_availability-form"]},"moodle-availability_grade-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_group-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_grouping-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-availability_profile-form":{"requires":["base","node","event","moodle-core_availability-form"]},"moodle-qtype_ddimageortext-form":{"requires":["moodle-qtype_ddimageortext-dd","form_filepicker"]},"moodle-qtype_ddimageortext-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-qtype_ddmarker-form":{"requires":["moodle-qtype_ddmarker-dd","form_filepicker","graphics","escape"]},"moodle-qtype_ddmarker-dd":{"requires":["node","event-resize","dd","dd-drop","dd-constrain","graphics"]},"moodle-qtype_ddwtos-dd":{"requires":["node","dd","dd-drop","dd-constrain"]},"moodle-mod_assign-history":{"requires":["node","transition"]},"moodle-mod_checklist-linkselect":{"requires":["node","event-valuechange"]},"moodle-mod_customcert-rearrange":{"requires":["dd-delegate","dd-drag"]},"moodle-mod_forum-subscriptiontoggle":{"requires":["base-base","io-base"]},"moodle-mod_quiz-autosave":{"requires":["base","node","event","event-valuechange","node-event-delegate","io-form"]},"moodle-mod_quiz-toolboxes":{"requires":["base","node","event","event-key","io","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-slot","moodle-core-notification-ajaxexception"]},"moodle-mod_quiz-util":{"requires":["node","moodle-core-actionmenu"],"use":["moodle-mod_quiz-util-base"],"submodules":{"moodle-mod_quiz-util-base":{},"moodle-mod_quiz-util-slot":{"requires":["node","moodle-mod_quiz-util-base"]},"moodle-mod_quiz-util-page":{"requires":["node","moodle-mod_quiz-util-base"]}}},"moodle-mod_quiz-dragdrop":{"requires":["base","node","io","dom","dd","dd-scroll","moodle-core-dragdrop","moodle-core-notification","moodle-mod_quiz-quizbase","moodle-mod_quiz-util-base","moodle-mod_quiz-util-page","moodle-mod_quiz-util-slot","moodle-course-util"]},"moodle-mod_quiz-questionchooser":{"requires":["moodle-core-chooserdialogue","moodle-mod_quiz-util","querystring-parse"]},"moodle-mod_quiz-quizbase":{"requires":["base","node"]},"moodle-mod_quiz-modform":{"requires":["base","node","event"]},"moodle-mod_quiz-repaginate":{"requires":["base","event","node","io","moodle-core-notification-dialogue"]},"moodle-message_airnotifier-toolboxes":{"requires":["base","node","io"]},"moodle-filter_glossary-autolinker":{"requires":["base","node","io-base","json-parse","event-delegate","overlay","moodle-core-event","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-filter_mathjaxloader-loader":{"requires":["moodle-core-event"]},"moodle-editor_atto-editor":{"requires":["node","transition","io","overlay","escape","event","event-simulate","event-custom","node-event-html5","node-event-simulate","yui-throttle","moodle-core-notification-dialogue","moodle-core-notification-confirm","moodle-editor_atto-rangy","handlebars","timers","querystring-stringify"]},"moodle-editor_atto-plugin":{"requires":["node","base","escape","event","event-outside","handlebars","event-custom","timers","moodle-editor_atto-menu"]},"moodle-editor_atto-menu":{"requires":["moodle-core-notification-dialogue","node","event","event-custom"]},"moodle-editor_atto-rangy":{"requires":[]},"moodle-report_eventlist-eventfilter":{"requires":["base","event","node","node-event-delegate","datatable","autocomplete","autocomplete-filters"]},"moodle-report_loglive-fetchlogs":{"requires":["base","event","node","io","node-event-delegate"]},"moodle-report_overviewstats-charts":{"requires":["base","node","charts","charts-legend"]},"moodle-gradereport_grader-gradereporttable":{"requires":["base","node","event","handlebars","overlay","event-hover"]},"moodle-gradereport_history-userselector":{"requires":["escape","event-delegate","event-key","handlebars","io-base","json-parse","moodle-core-notification-dialogue"]},"moodle-tool_capability-search":{"requires":["base","node"]},"moodle-tool_lp-dragdrop-reorder":{"requires":["moodle-core-dragdrop"]},"moodle-tool_monitor-dropdown":{"requires":["base","event","node"]},"moodle-assignfeedback_editpdf-editor":{"requires":["base","event","node","io","graphics","json","event-move","event-resize","transition","querystring-stringify-simple","moodle-core-notification-dialog","moodle-core-notification-alert","moodle-core-notification-exception","moodle-core-notification-ajaxexception"]},"moodle-atto_accessibilitychecker-button":{"requires":["color-base","moodle-editor_atto-plugin"]},"moodle-atto_accessibilityhelper-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_align-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_bold-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_charmap-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_clear-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_collapse-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_emoticon-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_equation-button":{"requires":["moodle-editor_atto-plugin","moodle-core-event","io","event-valuechange","tabview","array-extras"]},"moodle-atto_html-button":{"requires":["moodle-editor_atto-plugin","event-valuechange"]},"moodle-atto_image-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_indent-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_italic-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_link-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_managefiles-usedfiles":{"requires":["node","escape"]},"moodle-atto_managefiles-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_media-button":{"requires":["moodle-editor_atto-plugin","moodle-form-shortforms"]},"moodle-atto_noautolink-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_orderedlist-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_recordrtc-button":{"requires":["moodle-editor_atto-plugin","moodle-atto_recordrtc-recording"]},"moodle-atto_recordrtc-recording":{"requires":["moodle-atto_recordrtc-button"]},"moodle-atto_rtl-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_strike-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_subscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_superscript-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_table-button":{"requires":["moodle-editor_atto-plugin","moodle-editor_atto-menu","event","event-valuechange"]},"moodle-atto_title-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_underline-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_undo-button":{"requires":["moodle-editor_atto-plugin"]},"moodle-atto_unorderedlist-button":{"requires":["moodle-editor_atto-plugin"]}}},"gallery":{"name":"gallery","base":"https:\/\/james.codegym.vn\/lib\/yuilib\/gallery\/","combine":true,"comboBase":"https:\/\/james.codegym.vn\/theme\/yui_combo.php?","ext":false,"root":"gallery\/1545987165\/","patterns":{"gallery-":{"group":"gallery"}}}},"modules":{"core_filepicker":{"name":"core_filepicker","fullpath":"https:\/\/james.codegym.vn\/lib\/javascript.php\/1545987165\/repository\/filepicker.js","requires":["base","node","node-event-simulate","json","async-queue","io-base","io-upload-iframe","io-form","yui2-treeview","panel","cookie","datatable","datatable-sort","resize-plugin","dd-plugin","escape","moodle-core_filepicker","moodle-core-notification-dialogue"]},"core_comment":{"name":"core_comment","fullpath":"https:\/\/james.codegym.vn\/lib\/javascript.php\/1545987165\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]},"mathjax":{"name":"mathjax","fullpath":"https:\/\/cdnjs.cloudflare.com\/ajax\/libs\/mathjax\/2.7.2\/MathJax.js?delayStartupUntil=configured"}}};
+M.yui.loader = {modules: {}};
+
+//]]>
+</script>
+<link href="./Assignment_files/css" rel="stylesheet" type="text/css">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+<script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="core/first" src="./Assignment_files/requirejs.php"></script><script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    config: ["Accessible.js", "Safe.js"],
+    errorSettings: { message: ["!"] },
+    skipStartupTypeset: true,
+    messageStyle: "none"
+});
+</script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="./Assignment_files/javascript(1).php"></script></head>
+
+<body id="page-mod-assign-view" class="format-topics path-mod path-mod-assign safari dir-ltr lang-en yui-skin-sam yui3-skin-sam james-codegym-vn pagelayout-incourse course-26 context-10833 cmid-2667 category-3 site-menubar-fold-alt site-menubar-keep overrideaside jsenabled site-menubar-fold" data-isfolded="1">
+    <div>
+    <a class="sr-only sr-only-focusable" href="https://james.codegym.vn/mod/assign/view.php?id=2667&amp;forceview=1#maincontent">Skip to main content</a>
+</div><script type="text/javascript" src="./Assignment_files/combo(5)"></script><div id="yui3-css-stamp" style="position: absolute !important; visibility: hidden !important" class=""></div><script type="text/javascript" src="./Assignment_files/javascript(2).php"></script>
+<script type="text/javascript" src="./Assignment_files/javascript(3).php"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.body.className += ' jsenabled';
+//]]>
+</script>
+
+
+
+    
+    <!-- navbar-inverse -->
+    <nav class="site-navbar navbar navbar-default navbar-fixed-top moodle-has-zindex navbar-inverse  bg-customcolor-600 " role="navigation">
+        <div class="navbar-header d-flex justify-content-end">
+          <button type="button" class="navbar-toggler hamburger hamburger-close navbar-toggler-left hided mr-auto" data-toggle="menubar">
+            <span class="sr-only">Expand</span>
+            <span class="hamburger-bar"></span>
+          </button>
+          
+          <div class="navbar-brand navbar-brand-center p-0">
+              
+                <a class="text-white text-center d-block h-full" href="https://james.codegym.vn/">
+                  <span class="navbar-brand-logo mini h-full w-full" style="background-image: url(//james.codegym.vn/pluginfile.php/1/theme_remui/logomini/1545987165/icon-small.png);
+                        background-position: center; background-size: contain; background-repeat: no-repeat;"></span>
+    
+                  <span class="navbar-brand-logo h-full w-full" style="background-image: url(//james.codegym.vn/pluginfile.php/1/theme_remui/logo/1545987165/Codegym%20X.png);
+                        background-position: center; background-size: contain; background-repeat: no-repeat;">
+                  </span>
+                </a>
+          </div>
+    
+          
+    
+          <button type="button" class="navbar-toggler collapsed" data-target="#site-navbar-collapse" data-toggle="collapse">
+            <i class="icon fa fa-ellipsis-h" aria-hidden="true"></i>
+          </button>
+    
+        </div>
+        <div class="navbar-container container-fluid" style="-ms-flex:1 1 0%;">
+          <!-- Navbar Collapse -->
+          <div class="collapse navbar-collapse navbar-collapse-toolbar" id="site-navbar-collapse">
+            <!-- Navbar Toolbar -->
+            <ul class="nav navbar-toolbar">
+              <li class="nav-item hidden-float" id="toggleMenubar">
+                <a class="nav-link" data-toggle="menubar" href="https://james.codegym.vn/mod/assign/view.php?id=2667&amp;forceview=1#" role="button">
+                  <i class="icon fa-bars">
+                    <span class="sr-only">Expand</span>
+                    <span class="hamburger-bar"></span>
+                  </i>
+                </a>
+              </li>
+              <li class="nav-item hidden-sm-down" id="toggleFullscreen">
+                <a class="nav-link icon icon-fullscreen" data-toggle="fullscreen" href="https://james.codegym.vn/mod/assign/view.php?id=2667&amp;forceview=1#" role="button">
+                  <span class="sr-only">Toggle fullscreen</span>
+                </a>
+              </li>
+    
+                <li class="nav-item dropdown ">
+                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="javascript:void(0)" data-animation="scale-up" aria-expanded="true" role="button">Recent</a>
+                  <div class="dropdown-menu" role="menu">
+                        <a class="dropdown-item" role="menuitem" href="https://james.codegym.vn/course/view.php?id=26" title="Bootcamp Preparation">Bootcamp Preparation</a>
+                        <a class="dropdown-item" role="menuitem" href="https://james.codegym.vn/course/view.php?id=28" title="[BOOTCAMP-JAVA] Web Back-end Development">[BOOTCAMP-JAVA] Web Back-end Development</a>
+                        <a class="dropdown-item" role="menuitem" href="https://james.codegym.vn/course/view.php?id=7" title="Học cách học">Học cách học</a>
+                        <a class="dropdown-item" role="menuitem" href="https://james.codegym.vn/course/view.php?id=3" title="Hoàn thành mọi việc với Kanban">Hoàn thành mọi việc với Kanban</a>
+                  </div>
+                </li>
+    
+              <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" id="drop-down-5c370f89d59795c370f89d43494" data-toggle="dropdown" href="javascript:void(0)" data-animation="scale-up" aria-expanded="false" role="button">
+        Hệ thống CodeGym
+    </a>
+    <div class="dropdown-menu" role="menu" aria-labelledby="drop-down-5c370f89d59795c370f89d43494">
+                <a class="dropdown-item" role="menuitem" href="https://andy.codegym.vn/" target="_blank" title="CodeGym SIS">CodeGym SIS</a>
+                <a class="dropdown-item" role="menuitem" href="http://ken.codegym.vn/" target="_blank" title="CodeGym Projects">CodeGym Projects</a>
+                <a class="dropdown-item" role="menuitem" href="http://bob.codegym.vn/" target="_blank" title="CodeGym Bob">CodeGym Bob</a>
+    </div>
+</li><li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" id="drop-down-5c370f89d5b165c370f89d43495" data-toggle="dropdown" href="javascript:void(0)" data-animation="scale-up" aria-expanded="false" role="button">
+        English ‎(en)‎
+    </a>
+    <div class="dropdown-menu" role="menu" aria-labelledby="drop-down-5c370f89d5b165c370f89d43495">
+                <a class="dropdown-item" role="menuitem" href="https://james.codegym.vn/mod/assign/view.php?id=2667&amp;rownum=0&amp;useridlistid=5c370f89a4f4e135540946&amp;action&amp;lang=en" title="English ‎(en)‎">English ‎(en)‎</a>
+                <a class="dropdown-item" role="menuitem" href="https://james.codegym.vn/mod/assign/view.php?id=2667&amp;rownum=0&amp;useridlistid=5c370f89a4f4e135540946&amp;action&amp;lang=vi" title="Vietnamese ‎(vi)‎">Vietnamese ‎(vi)‎</a>
+    </div>
+</li>
+              
+            <li class="hideshow nav-item dropdown" style="visibility: hidden;">
+                <a href="javascript:void(0)" class="nav-link" data-toggle="dropdown" data-animation="scale-up">
+                  <i class="icon fa fa-ellipsis-h"></i>
+                </a>
+                <ul class="hideshow-ul dropdown-menu"></ul>
+              </li></ul>
+            <!-- End Navbar Toolbar -->
+    
+            <!-- Navbar Toolbar Right -->
+            <!-- user_menu -->
+            <ul class="nav navbar-toolbar navbar-right navbar-toolbar-right">
+              
+              
+              <!-- navbar_plugin_output : 'message', 'notifications' and 'chat sidebar' toggles -->
+              <li class="popover-region collapsed popover-region-messages nav-item dropdown" id="nav-message-popover-container" data-userid="1384" data-region="popover-region">
+    <a class="popover-region-toggle nav-link" data-toggle="dropdown" data-region="popover-region-toggle" href="javascript:void(0)" title="Toggle messages menu" aria-expanded="false" data-animation="scale-up" role="button" aria-label="Show message window with no new messages">
+                <i class="icon fa fa-envelope" aria-hidden="true"></i>
+       <!--  <i class="icon fa fa-comment fa-fw " aria-hidden="true" title="Toggle messages menu" aria-label="Toggle messages menu"></i> -->
+        <span class="badge badge-pill badge-important up animation-shake hidden" data-region="count-container"></span>
+
+    </a>
+
+    <div id="popover-region-container-5c370f89d643d5c370f89d43496" class="dropdown-menu dropdown-menu-right dropdown-menu-media" style="height: auto;" data-region="popover-region-container" aria-expanded="false" aria-hidden="true" aria-label="Notification window" role="region">
+        <div class="dropdown-menu-header">
+            <h5 class="text-uppercase d-inline" data-region="popover-region-header-text">Messages</h5>
+            <span class="float-right popover-region-header-actions">            <a class="mark-all-read-button badge badge-round badge-info" href="javascript:void(0)" role="button" title="Mark all as read" data-action="mark-all-read">
+                <i class="icon fa fa-check" aria-hidden="true"></i>
+            </a>
+        
+                <a href="https://james.codegym.vn/message/index.php?contactsfirst=1" class="badge badge-round badge-info" title="New message">
+                    <i class="icon fa fa-edit" aria-hidden="true"></i>
+                </a>
+</span>
+        </div>
+
+        <div class="list-group" role="presentation">
+            <div class="popover-region-content-container" style="min-height: 200px;" data-role="container" data-region="popover-region-content-container">
+                <div class="popover-region-content" data-role="content" data-region="popover-region-content">
+                            <div class="messages" data-region="messages" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+        <div class="empty-message" data-region="empty-message" tabindex="0">No messages</div>
+
+                </div>
+                <span class="loading-icon"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " aria-hidden="true" title="Loading" aria-label="Loading"></i></span>
+            </div>
+        </div>
+        <div class="dropdown-menu-footer" role="presentation">
+                        <a href="https://james.codegym.vn/message/edit.php?id=1384" class="dropdown-menu-footer-btn" title="Message preferences">
+                <i class="icon fa fa-cog" aria-hidden="true"></i>
+            </a>
+
+
+                    <a class="see-all-link dropdown-item" role="menuitem" href="https://james.codegym.vn/message/index.php">
+                        See all
+                    </a>
+        </div>
+    </div>
+</li><li class="popover-region collapsed popover-region-notifications nav-item dropdown" id="nav-notification-popover-container" data-userid="1384" data-region="popover-region">
+    <a class="popover-region-toggle nav-link" data-toggle="dropdown" data-region="popover-region-toggle" href="javascript:void(0)" title="Toggle notifications menu" aria-expanded="false" data-animation="scale-up" role="button" aria-label="Show notification window with no new notifications">
+                <i class="icon fa fa-bell" aria-hidden="true"></i>
+        <!-- <i class="icon fa fa-bell fa-fw " aria-hidden="true" title="Toggle notifications menu" aria-label="Toggle notifications menu"></i> -->
+        <span class="badge badge-pill badge-important up animation-shake hidden" data-region="count-container"></span>
+
+    </a>
+
+    <div id="popover-region-container-5c370f89d6e8d5c370f89d43497" class="dropdown-menu dropdown-menu-right dropdown-menu-media" style="height: auto;" data-region="popover-region-container" aria-expanded="false" aria-hidden="true" aria-label="Notification window" role="region">
+        <div class="dropdown-menu-header">
+            <h5 class="text-uppercase d-inline" data-region="popover-region-header-text">Notifications</h5>
+            <span class="float-right popover-region-header-actions">            <a class="mark-all-read-button badge badge-round badge-info" href="javascript:void(0)" title="Mark all as read" data-action="mark-all-read" role="button">
+                <i class="icon fa fa-check" aria-hidden="true"></i>
+            </a>
+</span>
+        </div>
+
+        <div class="list-group" role="presentation">
+            <div class="popover-region-content-container" style="min-height: 200px;" data-role="container" data-region="popover-region-content-container">
+                <div class="popover-region-content" data-role="content" data-region="popover-region-content">
+                            <div class="all-notifications" data-role="content" data-region="all-notifications" role="log" aria-busy="false" aria-atomic="false" aria-relevant="additions"></div>
+        <div class="empty-message" tabindex="0" data-region="empty-message">You have no notifications</div>
+
+                </div>
+                <span class="loading-icon"><i class="icon fa fa-circle-o-notch fa-spin fa-fw " aria-hidden="true" title="Loading" aria-label="Loading"></i></span>
+            </div>
+        </div>
+        <div class="dropdown-menu-footer" role="presentation">
+                        <a href="https://james.codegym.vn/message/notificationpreferences.php?userid=1384" class="dropdown-menu-footer-btn" title="Notification preferences">
+                <i class="icon fa fa-cog" aria-hidden="true"></i>
+            </a>
+
+
+                    <a class="see-all-link dropdown-item" role="menuitem" href="https://james.codegym.vn/message/output/popup/notifications.php">
+                        See all
+                    </a>
+        </div>
+    </div>
+</li>
+              
+              <li class="usermenu nav-item dropdown user-menu login-menu"><a class="nav-link navbar-avatar" data-toggle="dropdown" href="https://james.codegym.vn/mod/assign/view.php?id=2667&amp;forceview=1#" aria-expanded="false" data-animation="scale-up" role="button">
+            <span class="username">Lê Hồng Tín</span>
+            <span class="avatar avatar-online current">
+            <img src="./Assignment_files/f2.png" alt="Picture of Lê Hồng Tín" title="Picture of Lê Hồng Tín" class="userpicture defaultuserpic" width="35" height="35" role="presentation">
+            <i></i>
+            </span>
+        </a><div class="dropdown-menu" role="menu"><a class="dropdown-item" href="https://james.codegym.vn/my/" role="menuitem"><i class="icon fa fa-tachometer fa-fw iconsmall" aria-hidden="true" title="Dashboard" aria-label=""></i>Dashboard</a><div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" href="https://james.codegym.vn/user/profile.php?id=1384" role="menuitem"><i class="icon fa fa-user fa-fw iconsmall" aria-hidden="true" title="Profile" aria-label=""></i>Profile</a><a class="dropdown-item" href="https://james.codegym.vn/grade/report/overview/index.php" role="menuitem"><i class="icon fa fa-table fa-fw iconsmall" aria-hidden="true" title="Grades" aria-label=""></i>Grades</a><a class="dropdown-item" href="https://james.codegym.vn/message/index.php" role="menuitem"><i class="icon fa fa-comment fa-fw iconsmall" aria-hidden="true" title="Messages" aria-label=""></i>Messages</a><a class="dropdown-item" href="https://james.codegym.vn/user/preferences.php" role="menuitem"><i class="icon fa fa-wrench fa-fw iconsmall" aria-hidden="true" title="Preferences" aria-label=""></i>Preferences</a><div class="dropdown-divider" role="presentation"></div><a class="dropdown-item" href="https://james.codegym.vn/login/logout.php?sesskey=tWL4Fk4aZp" role="menuitem"><i class="icon fa fa-sign-out fa-fw iconsmall" aria-hidden="true" title="Log out" aria-label=""></i>Log out</a></div></li>
+    
+    
+              <li class="nav-item" id="toggleChat">
+            <a class="nav-link" data-toggle="site-sidebar" href="javascript:void(0)" title="Chat" data-url="https://james.codegym.vn/theme/remui/request_handler.php?action=get_remui_sidebar">
+              <i class="icon wb-chevron-left" aria-hidden="true"></i>
+            </a>
+          </li>
+            </ul>
+            <!-- End Navbar Toolbar Right -->
+          </div>
+          <!-- End Navbar Collapse -->
+    
+          <!-- Site Navbar Seach -->
+            
+          <!-- End Site Navbar Seach -->
+        </div>
+      </nav>
+          
+       <div class="site-menubar site-menubar-light moodle-has-zindex">
+        <div class="site-menubar-body scrollable scrollable-inverse scrollable-vertical is-disabled" style="position: relative;">
+          <div class="scrollable-container" style="">
+            <ul class="site-menu mt-15 scrollable-content" data-plugin="menu" style="transform: translate3d(0px, 0px, 0px);">
+                  
+                  <li class="site-menu-item back-to-course">
+                    <a href="https://james.codegym.vn/course/view.php?id=26">
+                      <i class="site-menu-icon fa-chevron-left" aria-hidden="true"></i>
+                      <span class="site-menu-title">Back to course</span>
+                    </a>
+                  </li>
+                  
+                      <li class="site-menu-item has-sub  " title="Giới thiệu khoá học">
+                          <a href="javascript:void(0)" class="py-5">
+                              <i class="site-menu-icon" style="font-style: normal;">0.</i>
+                              <span class="site-menu-title">Giới thiệu khoá học</span>
+                              <span class="site-menu-arrow"></span>
+                          </a>
+                  
+                          <ul class="site-menu-sub">
+                                  <li class="site-menu-item activity   incomplete" title="Đề cương môn học">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/resource/view.php?id=3089"><img src="./Assignment_files/pdf-24.svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">Đề cương môn học<span class="accesshide "> File</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   incomplete" title="Slides">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/folder/view.php?id=3088"><img src="./Assignment_files/icon.svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">Slides<span class="accesshide "> Folder</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   " title="Announcements">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/forum/view.php?id=4091"><img src="./Assignment_files/icon(1).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">Announcements<span class="accesshide "> Forum</span></span></a>
+                                  </li>
+                          </ul>
+                      </li>
+                      <li class="site-menu-item has-sub  " title="Nhập môn lập trình căn bản">
+                          <a href="javascript:void(0)" class="py-5">
+                              <i class="site-menu-icon" style="font-style: normal;">1.</i>
+                              <span class="site-menu-title">Nhập môn lập trình căn bản</span>
+                              <span class="site-menu-arrow"></span>
+                          </a>
+                  
+                          <ul class="site-menu-sub">
+                                  <li class="site-menu-item activity   complete" title="[Bài giảng] Thuật toán">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2893"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài giảng] Thuật toán<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài giảng] Cách sử dụng Git">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2894"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài giảng] Cách sử dụng Git<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Các bước lập trình để giải quyết vấn đề">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2281"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Các bước lập trình để giải quyết vấn đề<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Pseudo-code và flowchart">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2282"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Pseudo-code và flowchart<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Quiz] Sử dụng Git">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/quiz/view.php?id=3229"><img src="./Assignment_files/icon(3).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Quiz] Sử dụng Git</span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Tổng quan về JavaScript">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2296"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Tổng quan về JavaScript<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Các cách nhúng JavaScript vào trang web">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2301"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Các cách nhúng JavaScript vào trang web<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Chương trình JavaScript đơn giản">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2297"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Chương trình JavaScript đơn giản<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Quy tắc đặt tên file">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2298"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Quy tắc đặt tên file<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Tổng quan về Git">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2289"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Tổng quan về Git<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Các bước làm việc cơ bản với Git">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2290"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Các bước làm việc cơ bản với Git<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[*Đọc thêm] Các hệ thống quản lý mã nguồn và phiên bản">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2295"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[*Đọc thêm] Các hệ thống quản lý mã nguồn và phiên bản<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Quiz] Pseudo-code &amp; Flowchart">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/quiz/view.php?id=3228"><img src="./Assignment_files/icon(3).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Quiz] Pseudo-code &amp; Flowchart</span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Sử dụng pseudo-code và Flowchart để mô tả giải thuật">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2283"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Sử dụng pseudo-code và Flowchart để mô tả giải thuật<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Clone dự án từ Git">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2291"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Clone dự án từ Git<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Tạo dự án mới trên GitHub">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2292"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Tạo dự án mới trên GitHub<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Các câu lệnh thông dụng của Git">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2293"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Các câu lệnh thông dụng của Git<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Nhúng JavaScript">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2299"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Nhúng JavaScript<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Hiển thị kết quả">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2300"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Hiển thị kết quả<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Mô tả thuật toán tính điểm trung bình">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2284"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Mô tả thuật toán tính điểm trung bình<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Mô tả thuật toán chuyển đổi tiền tệ">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2285"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Mô tả thuật toán chuyển đổi tiền tệ<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Mô tả thuật toán có cấu trúc điều kiện">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2286"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Mô tả thuật toán có cấu trúc điều kiện<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Mô tả thuật toán có cấu trúc lặp">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2288"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Mô tả thuật toán có cấu trúc lặp<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Sử dụng git">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2294"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Sử dụng git<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[*Bài tập thêm] Mô tả thuật toán có cấu trúc điều kiện">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2287"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[*Bài tập thêm] Mô tả thuật toán có cấu trúc điều kiện<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[*Xem thêm] Máy tính hoạt động như thế nào?">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/book/view.php?id=4037"><img src="./Assignment_files/icon(5).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[*Xem thêm] Máy tính hoạt động như thế nào?<span class="accesshide "> Book</span></span></a>
+                                  </li>
+                          </ul>
+                      </li>
+                      <li class="site-menu-item has-sub  " title="Biến, kiểu dữ liệu và toán tử">
+                          <a href="javascript:void(0)" class="py-5">
+                              <i class="site-menu-icon" style="font-style: normal;">2.</i>
+                              <span class="site-menu-title">Biến, kiểu dữ liệu và toán tử</span>
+                              <span class="site-menu-arrow"></span>
+                          </a>
+                  
+                          <ul class="site-menu-sub">
+                                  <li class="site-menu-item activity   complete" title="[Bài giảng] Biến và kiểu dữ liệu">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2866"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài giảng] Biến và kiểu dữ liệu<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài giảng] Toán tử">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2867"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài giảng] Toán tử<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Cú pháp JavaScript">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2616"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Cú pháp JavaScript<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Kiểu dữ liệu trong Javascript">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2617"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Kiểu dữ liệu trong Javascript<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Quiz] Biến, kiểu dữ liệu và toán tử">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/quiz/view.php?id=2878"><img src="./Assignment_files/icon(3).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Quiz] Biến, kiểu dữ liệu và toán tử</span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Khai báo và sử dụng biến">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2618"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Khai báo và sử dụng biến<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Sử dụng toán tử">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2619"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Sử dụng toán tử<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Biến, kiểu dữ liệu và toán tử">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2625"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Biến, kiểu dữ liệu và toán tử<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Ứng dụng chuyển đổi tiền tệ">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2622"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Ứng dụng chuyển đổi tiền tệ<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Ứng dụng máy tính">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2624"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Ứng dụng máy tính<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                          </ul>
+                      </li>
+                      <li class="site-menu-item has-sub  " title="Cấu trúc điều kiện">
+                          <a href="javascript:void(0)" class="py-5">
+                              <i class="site-menu-icon" style="font-style: normal;">3.</i>
+                              <span class="site-menu-title">Cấu trúc điều kiện</span>
+                              <span class="site-menu-arrow"></span>
+                          </a>
+                  
+                          <ul class="site-menu-sub">
+                                  <li class="site-menu-item activity   complete" title="[Bài giảng] Cấu trúc điều kiện if - else">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2857"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài giảng] Cấu trúc điều kiện if - else<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài giảng] Câu lệnh switch - case">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2859"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài giảng] Câu lệnh switch - case<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài giảng] Các lỗi thường gặp trong câu lệnh if - else">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2858"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài giảng] Các lỗi thường gặp trong câu lệnh if - else<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Cấu trúc điều kiện IF/IF..ELSE">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2626"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Cấu trúc điều kiện IF/IF..ELSE<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Tạo biểu mẫu cho trang web">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2627"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Tạo biểu mẫu cho trang web<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Sử dụng select, option">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2631"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Sử dụng select, option<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Sử dụng input, button và textarea">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2632"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Sử dụng input, button và textarea<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Cấu trúc SWITCH...CASE">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2633"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Cấu trúc SWITCH...CASE<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Các sự kiện trong JavaScript">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2630"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Các sự kiện trong JavaScript<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Quiz] Câu lệnh điều kiện">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/quiz/view.php?id=2879"><img src="./Assignment_files/icon(3).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Quiz] Câu lệnh điều kiện</span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Kiểm tra năm nhuận">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2637"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Kiểm tra năm nhuận<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Luyện tập với cấu trúc if/else">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2635"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Luyện tập với cấu trúc if/else<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Luyện tập với cấu trúc if...else...if">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2640"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Luyện tập với cấu trúc if...else...if<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Luyện tập với cấu trúc switch-case">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2642"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Luyện tập với cấu trúc switch-case<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Luyện tập với toán tử">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2641"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Luyện tập với toán tử<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[*Thực hành] Sự kiện bàn phím">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2639"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[*Thực hành] Sự kiện bàn phím<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Sự kiện chuột">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2638"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Sự kiện chuột<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Tính chỉ số cân nặng của cơ thể">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2644"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Tính chỉ số cân nặng của cơ thể<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title=" [Bài tập] Câu lệnh switch-case">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2647"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename"> [Bài tập] Câu lệnh switch-case<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[*Bài tập] Ứng dụng good-fast-cheap">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2643"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[*Bài tập] Ứng dụng good-fast-cheap<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Máy tính đơn giản">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2648"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Máy tính đơn giản<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Game puzzle">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2649"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Game puzzle<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   incomplete" title="[Bài tập] Ứng dụng vui DoYouLoveMe">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2646"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Ứng dụng vui DoYouLoveMe<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[*Bài tập] Luyện tập cấu trúc điều kiện 01">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2645"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[*Bài tập] Luyện tập cấu trúc điều kiện 01<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[*Bài tập] Luyện tập cấu trúc điều kiện 02">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2650"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[*Bài tập] Luyện tập cấu trúc điều kiện 02<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[*Đọc thêm] Coding conventions">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2634"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[*Đọc thêm] Coding conventions<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                          </ul>
+                      </li>
+                      <li class="site-menu-item has-sub  " title="Cấu trúc lặp">
+                          <a href="javascript:void(0)" class="py-5">
+                              <i class="site-menu-icon" style="font-style: normal;">4.</i>
+                              <span class="site-menu-title">Cấu trúc lặp</span>
+                              <span class="site-menu-arrow"></span>
+                          </a>
+                  
+                          <ul class="site-menu-sub">
+                                  <li class="site-menu-item activity   complete" title="[Bài giảng] Cấu trúc lặp for">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2860"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài giảng] Cấu trúc lặp for<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài giảng] Cấu trúc lặp while và do - while ">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2861"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài giảng] Cấu trúc lặp while và do - while <span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Vòng lặp for">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2652"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Vòng lặp for<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Vòng lặp while và do...while">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2653"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Vòng lặp while và do...while<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Quiz] Vòng lặp 1">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/quiz/view.php?id=3408"><img src="./Assignment_files/icon(3).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Quiz] Vòng lặp 1</span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Sử dụng vòng lặp for">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2654"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Sử dụng vòng lặp for<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Sử dụng vòng lặp while">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2655"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Sử dụng vòng lặp while<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Sử dụng vòng lặp do-while">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2656"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Sử dụng vòng lặp do-while<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Sử dụng vòng lặp lồng nhau">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2657"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Sử dụng vòng lặp lồng nhau<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Sinh bảng cửu chương">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2659"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Sinh bảng cửu chương<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Hiển thị các số nguyên tố đầu tiên">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2660"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Hiển thị các số nguyên tố đầu tiên<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[*Bài tập] Luyện tập vòng lặp 01">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2658"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[*Bài tập] Luyện tập vòng lặp 01<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[*Bài tập] Luyện tập vòng lặp 02">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2661"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[*Bài tập] Luyện tập vòng lặp 02<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Quiz] Vòng lặp 2">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/quiz/view.php?id=3416"><img src="./Assignment_files/icon(3).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Quiz] Vòng lặp 2</span></a>
+                                  </li>
+                          </ul>
+                      </li>
+                      <li class="site-menu-item has-sub open active " title="Mảng">
+                          <a href="javascript:void(0)" class="py-5">
+                              <i class="site-menu-icon" style="font-style: normal;">5.</i>
+                              <span class="site-menu-title">Mảng</span>
+                              <span class="site-menu-arrow"></span>
+                          </a>
+                  
+                          <ul class="site-menu-sub">
+                                  <li class="site-menu-item activity   complete" title="[Bài giảng] Mảng">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2862"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài giảng] Mảng<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài giảng] Mảng hai chiều">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2863"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài giảng] Mảng hai chiều<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Mảng cơ bản">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2662"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Mảng cơ bản<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Quiz] Mảng 01">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/quiz/view.php?id=2882"><img src="./Assignment_files/icon(3).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Quiz] Mảng 01</span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Quiz] Mảng 02">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/quiz/view.php?id=2883"><img src="./Assignment_files/icon(3).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Quiz] Mảng 02</span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Tạo và thao tác với mảng">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2663"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Tạo và thao tác với mảng<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Đảo ngược các phần tử trong mảng">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2664"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Đảo ngược các phần tử trong mảng<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Tìm giá trị trong mảng">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2665"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Tìm giá trị trong mảng<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Tìm giá trị lớn nhất trong mảng">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2666"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Tìm giá trị lớn nhất trong mảng<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity active  complete" title="[Thực hành] Tạo bàn cờ caro đơn giản">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2667"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Tạo bàn cờ caro đơn giản<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Sử dụng các hàm có sẵn của mảng">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2668"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Sử dụng các hàm có sẵn của mảng<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   incomplete" title="[Bài tập] Từ điển">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2669"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Từ điển<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   incomplete" title="[*Bài tập] Ứng dụng vui Faking Textarea on Typing">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2670"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[*Bài tập] Ứng dụng vui Faking Textarea on Typing<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   incomplete" title="[*Bài tập] Luyện tập mảng 01">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2671"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[*Bài tập] Luyện tập mảng 01<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   incomplete" title="[*Bài tập] Luyện tập mảng 02">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2673"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[*Bài tập] Luyện tập mảng 02<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   incomplete" title="[Bài tập] Tic tac toe">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2672"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Tic tac toe<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   incomplete" title="[*Quiz] Mảng">
+                                    
+                                  </li>
+                          </ul>
+                      </li>
+                      <li class="site-menu-item has-sub  " title="Hàm">
+                          <a href="javascript:void(0)" class="py-5">
+                              <i class="site-menu-icon" style="font-style: normal;">6.</i>
+                              <span class="site-menu-title">Hàm</span>
+                              <span class="site-menu-arrow"></span>
+                          </a>
+                  
+                          <ul class="site-menu-sub">
+                                  <li class="site-menu-item activity   complete" title="[Bài giảng] Hàm">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2864"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài giảng] Hàm<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Demo] Hàm">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2865"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Demo] Hàm<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Hàm trong JavaScript">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2675"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Hàm trong JavaScript<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Làm việc với hàm: Đối số; Giá trị trả về; Gọi hàm">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2676"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Làm việc với hàm: Đối số; Giá trị trả về; Gọi hàm<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Coding Convention làm việc với hàm">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2678"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Coding Convention làm việc với hàm<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Truyền tham chiếu và tham trị trong JavaScript">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2677"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Truyền tham chiếu và tham trị trong JavaScript<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Tạo và gọi hàm">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2679"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Tạo và gọi hàm<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Chuyển đổi nhiệt độ">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2680"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Chuyển đổi nhiệt độ<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Tìm giá trị nhỏ nhất của mảng">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2681"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Tìm giá trị nhỏ nhất của mảng<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Quiz] Hàm">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/quiz/view.php?id=2886"><img src="./Assignment_files/icon(3).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Quiz] Hàm</span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Hàm kiểm tra số nguyên tố">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2683"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Hàm kiểm tra số nguyên tố<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Chuyển đổi giữa feet và meters">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2684"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Chuyển đổi giữa feet và meters<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Luyện tập tạo và sử dụng hàm 01">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2682"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Luyện tập tạo và sử dụng hàm 01<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   incomplete" title="[Bài tập] Luyện tập tạo và sử dụng hàm 02">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2685"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Luyện tập tạo và sử dụng hàm 02<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   incomplete" title="[*Bài tập] Ứng dụng quản lý sản phẩm sử dụng hàm">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2686"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[*Bài tập] Ứng dụng quản lý sản phẩm sử dụng hàm<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   incomplete" title="[*Bài tập] Kiểm tra từ đối xứng">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2687"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[*Bài tập] Kiểm tra từ đối xứng<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   incomplete" title="[*Quiz] Hàm">
+                                    
+                                  </li>
+                          </ul>
+                      </li>
+                      <li class="site-menu-item has-sub  " title="Lập trình hướng đối tượng">
+                          <a href="javascript:void(0)" class="py-5">
+                              <i class="site-menu-icon" style="font-style: normal;">7.</i>
+                              <span class="site-menu-title">Lập trình hướng đối tượng</span>
+                              <span class="site-menu-arrow"></span>
+                          </a>
+                  
+                          <ul class="site-menu-sub">
+                                  <li class="site-menu-item activity   complete" title="[Bài giảng] Lập trình hướng đối tượng">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2872"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài giảng] Lập trình hướng đối tượng<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Căn bản về đối tượng trong JavaScript">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2688"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Căn bản về đối tượng trong JavaScript<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] 3 cách định nghĩa lớp trong JavaScript">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2689"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] 3 cách định nghĩa lớp trong JavaScript<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Vẽ trên Canvas">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2690"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Vẽ trên Canvas<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Quiz] Lập trình hướng đối tượng 1">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/quiz/view.php?id=2887"><img src="./Assignment_files/icon(3).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Quiz] Lập trình hướng đối tượng 1</span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Xây dựng lớp Date">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2692"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Xây dựng lớp Date<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Xây dựng lớp Hình Tròn">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2691"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Xây dựng lớp Hình Tròn<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Funny circles">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2693"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Funny circles<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Xây dựng lớp mô tả hình chữ nhật">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2694"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Xây dựng lớp mô tả hình chữ nhật<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Xây dựng lớp mô tả Temperature">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2695"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Xây dựng lớp mô tả Temperature<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Xây dựng lớp mô tả điện thoại">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2696"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Xây dựng lớp mô tả điện thoại<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   incomplete" title="[*Bài tập] Phát triển game lái xe">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2697"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[*Bài tập] Phát triển game lái xe<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   incomplete" title="[*Quiz] Lập trình hướng đối tượng">
+                                    
+                                  </li>
+                          </ul>
+                      </li>
+                      <li class="site-menu-item has-sub  " title="Lập trình hướng đối tượng (2)">
+                          <a href="javascript:void(0)" class="py-5">
+                              <i class="site-menu-icon" style="font-style: normal;">8.</i>
+                              <span class="site-menu-title">Lập trình hướng đối tượng (2)</span>
+                              <span class="site-menu-arrow"></span>
+                          </a>
+                  
+                          <ul class="site-menu-sub">
+                                  <li class="site-menu-item activity   complete" title="[Bài giảng] Khai báo lớp và khởi tạo đối tượng">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2914"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài giảng] Khai báo lớp và khởi tạo đối tượng<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Thiết kế trong Lập trình hướng đối tượng">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2698"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Thiết kế trong Lập trình hướng đối tượng<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Các đối tượng thông dụng">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2699"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Các đối tượng thông dụng<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Quiz] Các đối tượng có sẵn trong JavaScript">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/quiz/view.php?id=2888"><img src="./Assignment_files/icon(3).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Quiz] Các đối tượng có sẵn trong JavaScript</span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Quiz] Lập trình hướng đối tượng 2">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/quiz/view.php?id=2889"><img src="./Assignment_files/icon(3).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Quiz] Lập trình hướng đối tượng 2</span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Xây dựng lớp mô phỏng sự hoạt động của đèn pin">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2700"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Xây dựng lớp mô phỏng sự hoạt động của đèn pin<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Game đơn giản - di chuyển đối tượng">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2701"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Game đơn giản - di chuyển đối tượng<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2702"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Phát triển ứng dụng nhỏ mô phỏng câu chuyện Adam và Eva<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Phát triển chương trình thể hiện sự tương tác giữa hai đối tượng: công tắc và bóng đèn">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2703"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Phát triển chương trình thể hiện sự tương tác giữa hai đối tượng: công tắc và bóng đèn<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   incomplete" title="[Bài tập] Phát triển trò chơi cờ ca-ro">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2704"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Phát triển trò chơi cờ ca-ro<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   incomplete" title="[*Bài tập] Phát triển ứng dụng mô phỏng lại quá trình mèo bắt chuột và ăn chuột.">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2705"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[*Bài tập] Phát triển ứng dụng mô phỏng lại quá trình mèo bắt chuột và ăn chuột.<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   incomplete" title="[*Bài tập] Phát triển chương trình sử dụng Remote để điều khiển Tivi">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2706"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[*Bài tập] Phát triển chương trình sử dụng Remote để điều khiển Tivi<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   incomplete" title="[*Quiz] Lập trình hướng đối tượng (2)">
+                                    
+                                  </li>
+                          </ul>
+                      </li>
+                      <li class="site-menu-item has-sub  " title="Xử lý chuỗi">
+                          <a href="javascript:void(0)" class="py-5">
+                              <i class="site-menu-icon" style="font-style: normal;">9.</i>
+                              <span class="site-menu-title">Xử lý chuỗi</span>
+                              <span class="site-menu-arrow"></span>
+                          </a>
+                  
+                          <ul class="site-menu-sub">
+                                  <li class="site-menu-item activity   complete" title="[Bài giảng] Xử lý chuỗi">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2915"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài giảng] Xử lý chuỗi<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài giảng] Regular Expression">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2916"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài giảng] Regular Expression<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Cấu trúc chuỗi">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2707"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Cấu trúc chuỗi<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Regular Expression">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2708"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Regular Expression<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Kiểm tra ký tự đầu tiên của chuỗi có phải là chữ hoa không.">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2709"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Kiểm tra ký tự đầu tiên của chuỗi có phải là chữ hoa không.<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Kiểm tra Mã quốc gia nước Mỹ">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2710"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Kiểm tra Mã quốc gia nước Mỹ<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Validate email">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2711"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Validate email<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập]  Validate account">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2712"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập]  Validate account<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập]  Validate tên của lớp học">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2713"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập]  Validate tên của lớp học<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập]  Validate số điện thoại">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2714"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập]  Validate số điện thoại<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[*Bài tập] Luyện tập sử dụng biểu thức chính quy">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2715"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[*Bài tập] Luyện tập sử dụng biểu thức chính quy<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[*Bài tập] Làm việc với các đối tượng thông dụng">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2716"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[*Bài tập] Làm việc với các đối tượng thông dụng<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Quiz] Thao tác với Chuỗi">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/quiz/view.php?id=3409"><img src="./Assignment_files/icon(3).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Quiz] Thao tác với Chuỗi</span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   incomplete" title="[*Quiz] Thao tác với Chuỗi">
+                                    
+                                  </li>
+                          </ul>
+                      </li>
+                      <li class="site-menu-item has-sub  " title="Giải quyết vấn đề và thuật toán">
+                          <a href="javascript:void(0)" class="py-5">
+                              <i class="site-menu-icon" style="font-style: normal;">10.</i>
+                              <span class="site-menu-title">Giải quyết vấn đề và thuật toán</span>
+                              <span class="site-menu-arrow"></span>
+                          </a>
+                  
+                          <ul class="site-menu-sub">
+                                  <li class="site-menu-item activity   complete" title="[Bài giảng] Thuật toán tìm kiếm tuyến tính">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2917"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài giảng] Thuật toán tìm kiếm tuyến tính<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài giảng] Debug ứng dụng JavaScript">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2918"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài giảng] Debug ứng dụng JavaScript<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Demo] Debug JavaScript trong WebStorm">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=3211"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Demo] Debug JavaScript trong WebStorm<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài đọc] Thuật toán tìm kiếm tuyến tính">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/page/view.php?id=2717"><img src="./Assignment_files/icon(2).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài đọc] Thuật toán tìm kiếm tuyến tính<span class="accesshide "> Page</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Quiz]-Thuật toán tìm kiếm">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/quiz/view.php?id=2892"><img src="./Assignment_files/icon(3).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Quiz]-Thuật toán tìm kiếm</span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Tìm kiếm giá trị lớn nhất hoặc nhỏ nhất">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2718"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Tìm kiếm giá trị lớn nhất hoặc nhỏ nhất<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Thực hành] Đếm số lần xuất hiện của phần tử">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2719"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Thực hành] Đếm số lần xuất hiện của phần tử<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Game đoán số">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2720"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Game đoán số<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Sử dụng thuật toán tìm kiếm">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2721"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Sử dụng thuật toán tìm kiếm<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Debug">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2651"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Debug<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   complete" title="[Bài tập] Ứng dụng quản lý sản phẩm sử dụng mảng">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=2674"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Bài tập] Ứng dụng quản lý sản phẩm sử dụng mảng<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                                  <li class="site-menu-item activity   incomplete" title="[*Quiz] Thuật toán">
+                                    
+                                  </li>
+                          </ul>
+                      </li>
+                      <li class="site-menu-item has-sub  " title="Case Study">
+                          <a href="javascript:void(0)" class="py-5">
+                              <i class="site-menu-icon" style="font-style: normal;">11.</i>
+                              <span class="site-menu-title">Case Study</span>
+                              <span class="site-menu-arrow"></span>
+                          </a>
+                  
+                          <ul class="site-menu-sub">
+                                  <li class="site-menu-item activity   incomplete" title="[Case studio] Bouncing Ball Game">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=3218"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">[Case studio] Bouncing Ball Game<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                          </ul>
+                      </li>
+                      <li class="site-menu-item has-sub  " title="Final Examination">
+                          <a href="javascript:void(0)" class="py-5">
+                              <i class="site-menu-icon" style="font-style: normal;">12.</i>
+                              <span class="site-menu-title">Final Examination</span>
+                              <span class="site-menu-arrow"></span>
+                          </a>
+                  
+                          <ul class="site-menu-sub">
+                                  <li class="site-menu-item activity   incomplete" title="Nộp bài kiểm tra cuối module">
+                                    <a class="" onclick="" href="https://james.codegym.vn/mod/assign/view.php?id=4071"><img src="./Assignment_files/icon(4).svg" class="iconlarge activityicon" alt=" " role="presentation"><span class="instancename">Nộp bài kiểm tra cuối module<span class="accesshide "> Assignment</span></span></a>
+                                  </li>
+                          </ul>
+                      </li>
+                  
+    
+            </ul>
+          </div>
+        <div class="scrollable-bar scrollable-bar-vertical scrollable-bar-hide" draggable="false"><div class="scrollable-bar-handle" style="height: 205.686px;"></div></div></div>
+    
+        <div class="site-menubar-footer">
+                  <a href="https://james.codegym.vn/blog/index.php" class="fold-show w-p50" data-placement="top" data-toggle="tooltip" data-original-title="Site Blog">
+                    <span class="icon fa-comments" aria-hidden="true"></span>
+                  </a>
+                  <a href="https://james.codegym.vn/course/index.php" class="w-p50" data-placement="top" data-toggle="tooltip" data-original-title="Course Archive Page">
+                    <span class="icon fa fa-archive" aria-hidden="true"></span>
+                  </a>
+        </div>
+      </div>
+
+    <div class="page" id="yui_3_17_2_1_1547112330543_43">
+        <div id="gotop" class="to-top " style="display: flex;">
+            <i class="fa fa-chevron-up"></i>
+        </div>
+        
+         
+        <!-- blocks aside -->
+        <!-- end blocks aside -->
+        <div class="page-main" id="yui_3_17_2_1_1547112330543_42">
+        <div class="container" id="yui_3_17_2_1_1547112330543_41">
+            <header id="page-header" class="page-header"><h1 class="page-title">Bootcamp Preparation</h1><ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="https://james.codegym.vn/my/">Dashboard</a></li>
+            <li class="breadcrumb-item">My courses</li>
+            <li class="breadcrumb-item"><a href="https://james.codegym.vn/course/view.php?id=26" title="Bootcamp Preparation">BP</a></li>
+            <li class="breadcrumb-item"><a href="https://james.codegym.vn/course/view.php?id=26#section-5">Mảng</a></li>
+            <li class="breadcrumb-item"><a href="https://james.codegym.vn/mod/assign/view.php?id=2667" title="Assignment">[Thực hành] Tạo bàn cờ caro đơn giản</a></li>
+</ol><div class="page-header-actions"></div><div class="row additional-actions"><div class="col-12"></div></div><div id="course-header"></div></header>
+            <div class="row page-content px-30 py-10">
+    <div class="col-6 justify-content-start text-left">
+            <a href="https://james.codegym.vn/mod/assign/view.php?id=2666&amp;forceview=1" id="prev-activity-link" class="btn btn-primary" classes="btn btn-link" title="[Thực hành] Tìm giá trị lớn nhất trong mảng">Previous Activity</a>
+
+    </div>
+    <div class="col-6 justify-content-end text-right">
+            <a href="https://james.codegym.vn/mod/assign/view.php?id=2668&amp;forceview=1" id="next-activity-link" class="btn btn-primary" classes="btn btn-link" title="[Bài tập] Sử dụng các hàm có sẵn của mảng">Next Activity</a>
+
+    </div>
+</div>
+            <div class="page-content" id="page-content">
+            <div class="panel" id="yui_3_17_2_1_1547112330543_40">
+                <div class="panel-body" id="yui_3_17_2_1_1547112330543_39">
+                <div id="region-main-box">
+
+                    <section id="region-main" class="float-none">
+
+                        <span class="notifications" id="user-notifications"></span>
+                        <div role="main" id="yui_3_17_2_1_1547112330543_38"><span id="maincontent"></span><h2>[Thực hành] Tạo bàn cờ caro đơn giản</h2><div id="intro" class="box generalbox boxaligncenter"><div class="no-overflow" id="yui_3_17_2_1_1547112330543_45"><h3>Mục đích</h3>
+<p>Luyện tập mảng hai chiều với vòng lặp for, truy cập và thay đổi các phần tử trong mảng 2 chiều.</p>
+<h3 id="yui_3_17_2_1_1547112330543_44">Mô tả bài toán</h3>
+<p>Xây dựng game caro đơn giản. Bàn cờ hiển thị đơn giản gồm N dòng và M cột. Mỗi giá trị trong cột nhận giá trị mặc định là 0.</p>
+<p><img src="./Assignment_files/1.png" width="346" height="374"></p>
+<p>Khi người dùng click vào nút “Change Value” sẽ hiển thị hộp thoại yêu cầu nhập vị trí phần tử cần thay đổi và giá trị phần tử cần thay đổi. Sau khi thay đổi màn hình hiển thị lại bàn cờ như sau:</p>
+<p><img src="./Assignment_files/2.png" width="380" height="416"></p><p></p><p><b>Để hoàn thành bài thực hành, học viên cần:</b></p><p></p><ul><li>Đưa mã nguồn lên GitHub<br></li><li>Dán link của repository lên phần nộp bài trên CodeGymX</li></ul><p></p>
+<h3><span style="">Hướng dẫn</span></h3><h4><strong style="color: rgb(118, 131, 143); font-size: 1rem; font-family: &quot;Open Sans&quot;, sans-serif;">Bước 1:&nbsp;</strong><span style="color: rgb(118, 131, 143); font-size: 1rem; font-family: &quot;Open Sans&quot;, sans-serif;">Tạo file carosimple.html.</span><br></h4>
+<p><strong>Bước 2:</strong>&nbsp;Tạo giao diện sử dụng thẻ html</p>
+<pre><code class="hljs xml"><span><span class="hljs-meta">&lt;!DOCTYPE </span></span><span><span class="hljs-meta">html</span></span><span><span class="hljs-meta">&gt;</span></span><br><span><span class="hljs-tag">&lt;</span></span><span><span class="hljs-tag"><span class="hljs-name">html</span> </span></span><span><span class="hljs-tag"><span class="hljs-attr">lang</span>=</span></span><span><span class="hljs-tag"><span class="hljs-string">"en"</span></span></span><span><span class="hljs-tag">&gt;</span></span><br>    <span><span class="hljs-tag">&lt;</span></span><span><span class="hljs-tag"><span class="hljs-name">body</span></span></span><span><span class="hljs-tag">&gt;</span></span><br>        <span><span class="hljs-tag">&lt;</span></span><span><span class="hljs-tag"><span class="hljs-name">h3</span></span></span><span><span class="hljs-tag">&gt;</span></span>Caro Game Simple<span><span class="hljs-tag">&lt;/</span></span><span><span class="hljs-tag"><span class="hljs-name">h3</span></span></span><span><span class="hljs-tag">&gt;</span></span><br>        <span><span class="hljs-tag">&lt;</span></span><span><span class="hljs-tag"><span class="hljs-name">p</span> </span></span><span><span class="hljs-tag"><span class="hljs-attr">id</span>=</span></span><span><span class="hljs-tag"><span class="hljs-string">"carogame"</span></span></span><span><span class="hljs-tag">/&gt;</span></span><br>        <span><span class="hljs-tag">&lt;</span></span><span><span class="hljs-tag"><span class="hljs-name">input</span> </span></span><span><span class="hljs-tag"><span class="hljs-attr">type</span>=</span></span><span><span class="hljs-tag"><span class="hljs-string">"button"</span> </span></span><span><span class="hljs-tag"><span class="hljs-attr">value</span>=</span></span><span><span class="hljs-tag"><span class="hljs-string">"Change Value"</span> </span></span><span><span class="hljs-tag"><span class="hljs-attr">onclick</span>=</span></span><span><span class="hljs-tag"><span class="hljs-string">"</span></span></span><span class="hljs-tag"><span class="hljs-string">changeValue()</span></span><span><span class="hljs-tag"><span class="hljs-string">"</span></span></span><span><span class="hljs-tag">&gt;</span></span><br>    <span><span class="hljs-tag">&lt;/</span></span><span><span class="hljs-tag"><span class="hljs-name">body</span></span></span><span><span class="hljs-tag">&gt;</span></span><br><span><span class="hljs-tag">&lt;/</span></span><span><span class="hljs-tag"><span class="hljs-name">html</span></span></span><span><span class="hljs-tag">&gt;</span></span></code></pre>
+<p><strong>Bước 3:&nbsp;</strong>Hiển thị bàn cờ</p>
+<pre id="yui_3_17_2_1_1547112330543_48"><code class="hljs xml" id="yui_3_17_2_1_1547112330543_47"><span><span class="hljs-tag">&lt;</span></span><span><span class="hljs-tag"><span class="hljs-name">script</span></span></span><span><span class="hljs-tag">&gt;</span></span><br><span class="javascript" id="yui_3_17_2_1_1547112330543_46">    </span><span><span class="javascript"><span class="hljs-keyword">var</span> </span></span><span><span class="javascript">b </span></span><span class="javascript">= </span><span><span class="javascript"><span class="hljs-built_in">document</span></span></span><span class="javascript">.</span><span><span class="javascript">getElementById</span></span><span class="javascript">(</span><span><span class="javascript"><span class="hljs-string">"carogame "</span></span></span><span class="javascript">);</span><br><br><span class="javascript">    </span><span><span class="javascript"><span class="hljs-keyword">var</span> </span></span><span><span class="javascript">board </span></span><span class="javascript">= [];</span><br><span class="javascript">    </span><span><span class="javascript"><span class="hljs-keyword">var</span> </span></span><span><span class="javascript">data </span></span><span class="javascript">= </span><span><span class="javascript"><span class="hljs-string">""</span></span></span><span class="javascript">;</span><br><span class="javascript">    </span><span><span class="javascript"><span class="hljs-keyword">for</span></span></span><span class="javascript">(</span><span><span class="javascript"><span class="hljs-keyword">var</span> </span></span><span><span class="javascript">i </span></span><span class="javascript">= </span><span><span class="javascript"><span class="hljs-number">0</span></span></span><span class="javascript">; </span><span><span class="javascript">i </span></span><span class="javascript">&lt; </span><span><span class="javascript"><span class="hljs-number">5</span></span></span><span class="javascript">; </span><span><span class="javascript">i</span></span><span class="javascript">++) {</span><br><span class="javascript">        </span><span><span class="javascript">board</span></span><span class="javascript">[</span><span><span class="javascript">i</span></span><span class="javascript">] = </span><span><span class="javascript"><span class="hljs-keyword">new</span> </span></span><span class="javascript"><span class="hljs-built_in">Array</span>(</span><span><span class="javascript"><span class="hljs-number">0</span></span></span><span class="javascript">, </span><span><span class="javascript"><span class="hljs-number">0</span></span></span><span class="javascript">, </span><span><span class="javascript"><span class="hljs-number">0</span></span></span><span class="javascript">, </span><span><span class="javascript"><span class="hljs-number">0</span></span></span><span class="javascript">, </span><span><span class="javascript"><span class="hljs-number">0</span></span></span><span class="javascript">);</span><br><span class="javascript">    }</span><br><br><span class="javascript">    </span><span><span class="javascript"><span class="hljs-keyword">for</span></span></span><span class="javascript">(</span><span><span class="javascript"><span class="hljs-keyword">var</span> </span></span><span><span class="javascript">i </span></span><span class="javascript">= </span><span><span class="javascript"><span class="hljs-number">0</span></span></span><span class="javascript">; </span><span><span class="javascript">i </span></span><span class="javascript">&lt; </span><span><span class="javascript"><span class="hljs-number">5</span></span></span><span class="javascript">; </span><span><span class="javascript">i</span></span><span class="javascript">++) {</span><br><span class="javascript">        </span><span><span class="javascript">data </span></span><span class="javascript">+= </span><span><span class="javascript"><span class="hljs-string">"&lt;br/&gt;"</span></span></span><span class="javascript">;</span><br><span class="javascript">        </span><span><span class="javascript"><span class="hljs-keyword">for</span></span></span><span class="javascript">(</span><span><span class="javascript"><span class="hljs-keyword">var</span> </span></span><span><span class="javascript">j </span></span><span class="javascript">= </span><span><span class="javascript"><span class="hljs-number">0</span></span></span><span class="javascript">; </span><span><span class="javascript">j </span></span><span class="javascript">&lt; </span><span><span class="javascript"><span class="hljs-number">5</span></span></span><span class="javascript">; </span><span><span class="javascript">j</span></span><span class="javascript">++){</span><br><span class="javascript">            </span><span><span class="javascript">data </span></span><span class="javascript">+= </span><span><span class="javascript">board</span></span><span class="javascript">[</span><span><span class="javascript">i</span></span><span class="javascript">][</span><span><span class="javascript">j</span></span><span class="javascript">] + </span><span><span class="javascript"><span class="hljs-string">"&amp;nbsp;&amp;nbsp;"</span></span></span><span class="javascript">;</span><br><span class="javascript">        }</span><br><span class="javascript">    }</span><br><br><span class="javascript">    </span><span><span class="javascript">data </span></span><span class="javascript">+= </span><span><span class="javascript"><span class="hljs-string">"&lt;br/&gt;&lt;br/&gt;&lt;input type='button' value='Change Value' onclick='changeValue()'&gt;"</span></span><br></span><span><span class="javascript">    </span></span><span><span class="javascript">b</span></span><span class="javascript">.</span><span><span class="javascript">innerHTML </span></span><span class="javascript">= </span><span><span class="javascript">data</span></span><span class="javascript">;</span><br><span><span class="hljs-tag">&lt;/</span></span><span><span class="hljs-tag"><span class="hljs-name">script</span></span></span><span><span class="hljs-tag">&gt;</span></span></code></pre>
+<p><strong>Bước 4:&nbsp;</strong>Xử lý sự kiện khi người dùng click chuột vào nút “Change Value”</p>
+<pre><code class="hljs javascript"><span><span class="hljs-function"><span class="hljs-keyword">function</span> </span></span><span><span class="hljs-function"><span class="hljs-title">changeValue</span></span></span><span class="hljs-function">(<span class="hljs-params"></span>) </span>{<br>    <span><span class="hljs-keyword">var</span> </span><span>positionX </span>= <span>prompt</span>(<span><span class="hljs-string">"X: "</span></span>);<br>    <span><span class="hljs-keyword">var</span> </span><span>positionY </span>= <span>prompt</span>(<span><span class="hljs-string">"Y: "</span></span>);<br>    <span>data </span>= <span><span class="hljs-string">""</span></span>;<br>    board[<span>positionX</span>][<span>positionY</span>] = <span><span class="hljs-string">"x"</span></span>;<br>    <span><span class="hljs-keyword">for</span></span>(<span><span class="hljs-keyword">var</span> </span><span>i </span>= <span><span class="hljs-number">0</span></span>; <span>i </span>&lt; <span><span class="hljs-number">5</span></span>; <span>i</span>++) {<br>        <span>data </span>+= <span><span class="hljs-string">"&lt;br/&gt;"</span></span>;<br>        <span><span class="hljs-keyword">for</span></span>(<span><span class="hljs-keyword">var</span> </span><span>j </span>= <span><span class="hljs-number">0</span></span>; <span>j </span>&lt; <span><span class="hljs-number">5</span></span>; <span>j</span>++){<br>            <span>data </span>+= board[<span>i</span>][<span>j</span>] + <span><span class="hljs-string">"&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;"</span></span>;<br>        }<br>    }<br>    <span>data </span>+= <span><span class="hljs-string">"&lt;br/&gt;&lt;br/&gt;&lt;input type='button' value='Change Value' onclick='</span></span><span><span class="hljs-string">changeValue</span></span><span><span class="hljs-string">()'&gt;"</span><br></span><span>    </span>b.<span>innerHTML </span>= <span><span class="hljs-string">"&lt;hr/&gt;"</span></span>+ <span>data</span>;<br>}</code></pre>
+<p><strong>Bước 5:&nbsp;</strong>Chạy chương trình và thay đổi vị trí trên bàn cờ. Quan sát kết quả.</p></div></div><div class="submissionstatustable"><h3>Submission status</h3><div class="box boxaligncenter submissionsummarytable"><table class="generaltable">
+<tbody><tr class="">
+<td class="cell c0" style="">Submission status</td>
+<td class="cell c1 lastcol" style="">No attempt</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="">Grading status</td>
+<td class="submissionnotgraded cell c1 lastcol" style="">Not graded</td>
+</tr>
+<tr class="">
+<td class="cell c0" style="">Last modified</td>
+<td class="cell c1 lastcol" style="">-</td>
+</tr>
+<tr class="lastrow">
+<td class="cell c0" style="">Submission comments</td>
+<td class="cell c1 lastcol" style=""><div class="box boxaligncenter plugincontentsummary summary_assignsubmission_comments_25307"><div class="commentscontainer"><div style="display:none" id="cmt-tmpl"><div class="comment-message"><div class="comment-message-meta m-r-3"><span class="picture">___picture___</span><span class="user">___name___</span> - <span class="time">___time___</span></div><div class="text">___content___</div></div></div><div class="mdl-left"><a class="showcommentsnonjs" href="https://james.codegym.vn/mod/assign/view.php?id=2667&amp;rownum=0&amp;useridlistid=5c370f89a4f4e135540946&amp;action&amp;nonjscomment=1&amp;comment_itemid=25307&amp;comment_context=10833&amp;comment_component=assignsubmission_comments&amp;comment_area=submission_comments">Show comments</a><a class="comment-link" id="comment-link-5c370f89e1654" href="https://james.codegym.vn/mod/assign/view.php?id=2667&amp;forceview=1#" role="button" aria-expanded="false"><i class="icon fa fa-plus-square fa-fw " aria-hidden="true" title="Comments" aria-label="Comments"></i><span id="comment-link-text-5c370f89e1654">Comments (0)</span></a><div id="comment-ctrl-5c370f89e1654" class="comment-ctrl"><ul id="comment-list-5c370f89e1654" class="comment-list"><li class="first"></li></ul><div id="comment-pagination-5c370f89e1654" class="comment-pagination"></div><div class="comment-area"><div class="db"><textarea name="content" rows="2" id="dlg-content-5c370f89e1654" cols="20" style="color: grey;"></textarea></div><div class="fd" id="comment-action-5c370f89e1654"><a id="comment-action-post-5c370f89e1654" href="https://james.codegym.vn/mod/assign/view.php?id=2667&amp;forceview=1#">Save comment</a><span> | </span><a id="comment-action-cancel-5c370f89e1654" href="https://james.codegym.vn/mod/assign/view.php?id=2667&amp;forceview=1#">Cancel</a></div></div><div class="clearer"></div></div></div></div></div></td>
+</tr>
+</tbody>
+</table>
+</div><div class="box generalbox submissionaction"><div class="singlebutton m-0">
+    <form method="get" action="https://james.codegym.vn/mod/assign/view.php">
+            <input type="hidden" name="id" value="2667">
+            <input type="hidden" name="action" value="editsubmission">
+        <button type="submit" class="btn btn-inverse mr-5" id="single_button5c370f89d43499" title="">Add submission</button>
+    </form>
+</div><div class="box boxaligncenter submithelp">You have not made a submission yet</div></div></div></div>
+                        
+                    </section>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+        <!-- End Page -->
+    
+        
+        <!-- Footer -->
+        <footer class="site-footer bg-primary-600 grey-100">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4 text-xs-center">
+                        <div class="py-30 px-10">
+                            <h4 class="card-title mt-10 grey-100">CHƯƠNG TRÌNH</h4>
+                            <p class="card-text"></p><ul>
+<li><a href="https://codegym.vn/career/">Career</a></li>
+<li><a href="https://codegym.vn/premium/">Premium</a></li>
+<li><a href="https://codegym.vn/accelerator/">Accelerator</a></li>
+</ul><p></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4 text-xs-center">
+                        <div class="py-30 px-10">
+                            <h4 class="card-title mt-10 grey-100">TÀI NGUYÊN</h4>
+                            <p class="card-text"></p><ul>
+<li><a href="https://codegym.vn/blog/">Blog</a></li>
+<li><a href="http://tapchilaptrinh.vn/">Tạp chí Lập trình</a></li>
+<li><a href="http://hocvienagile.com/agilebreakfast/">AgileBreakfast</a></li>
+</ul><p></p>
+                        </div>
+                    </div>
+        
+                    <div class="col-12 col-sm-6 col-lg-4 text-xs-center">
+                        <div class="py-30 px-10">
+                            <h4 class="card-title mt-10 grey-100">Follow Us</h4>
+                            <p class="card-text">
+                                    <a href="https://www.facebook.com/codegym.vn/" class="btn btn-icon btn-round social-facebook m-5"><i class="icon fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="https://www.linkedin.com/company/codegym" class="btn btn-icon btn-round social-linkedin m-5"><i class="icon fa-linkedin" aria-hidden="true"></i></a>
+                                    <a href="https://www.youtube.com/channel/UCR4mEO211pP6O_shIQwVYLQ" class="btn btn-icon btn-round social-youtube m-5"><i class="icon fa-youtube" aria-hidden="true"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- bottom sections -->
+            <div class="footer-bottom">
+                <div class="site-footer-legal pt-5">
+                    <a href="https://james.codegym.vn/mod/assign/0">CodeGym@2018. All rights reserved.</a>
+                </div>
+                
+                <div class="site-footer-right pt-5">
+                    
+                    
+                    <div id="course-footer">
+                        
+                    </div>
+                </div>
+            </div>
+        
+            <script type="text/javascript">
+//<![CDATA[
+var require = {
+    baseUrl : 'https://james.codegym.vn/lib/requirejs.php/1545987165/',
+    // We only support AMD modules with an explicit define() statement.
+    enforceDefine: true,
+    skipDataMain: true,
+    waitSeconds : 0,
+
+    paths: {
+        jquery: 'https://james.codegym.vn/lib/javascript.php/1545987165/lib/jquery/jquery-3.2.1.min',
+        jqueryui: 'https://james.codegym.vn/lib/javascript.php/1545987165/lib/jquery/ui-1.12.1/jquery-ui.min',
+        jqueryprivate: 'https://james.codegym.vn/lib/javascript.php/1545987165/lib/requirejs/jquery-private'
+    },
+
+    // Custom jquery config map.
+    map: {
+      // '*' means all modules will get 'jqueryprivate'
+      // for their 'jquery' dependency.
+      '*': { jquery: 'jqueryprivate' },
+      // Stub module for 'process'. This is a workaround for a bug in MathJax (see MDL-60458).
+      '*': { process: 'core/first' },
+
+      // 'jquery-private' wants the real jQuery module
+      // though. If this line was not here, there would
+      // be an unresolvable cyclic dependency.
+      jqueryprivate: { jquery: 'jquery' }
+    }
+};
+
+//]]>
+</script>
+<script type="text/javascript" src="./Assignment_files/javascript(4).php"></script>
+<script type="text/javascript">
+//<![CDATA[
+require(['core/first'], function() {
+;
+require(["media_videojs/loader"], function(loader) {
+    loader.setUp(function(videojs) {
+        videojs.options.flash.swf = "https://james.codegym.vn/media/player/videojs/videojs/video-js.swf";
+videojs.addLanguage("en",{
+ "Audio Player": "Audio Player",
+ "Video Player": "Video Player",
+ "Play": "Play",
+ "Pause": "Pause",
+ "Replay": "Replay",
+ "Current Time": "Current Time",
+ "Duration": "Duration",
+ "Remaining Time": "Remaining Time",
+ "Stream Type": "Stream Type",
+ "LIVE": "LIVE",
+ "Loaded": "Loaded",
+ "Progress": "Progress",
+ "Progress Bar": "Progress Bar",
+ "progress bar timing: currentTime={1} duration={2}": "{1} of {2}",
+ "Fullscreen": "Fullscreen",
+ "Non-Fullscreen": "Non-Fullscreen",
+ "Mute": "Mute",
+ "Unmute": "Unmute",
+ "Playback Rate": "Playback Rate",
+ "Subtitles": "Subtitles",
+ "subtitles off": "subtitles off",
+ "Captions": "Captions",
+ "captions off": "captions off",
+ "Chapters": "Chapters",
+ "Descriptions": "Descriptions",
+ "descriptions off": "descriptions off",
+ "Audio Track": "Audio Track",
+ "Volume Level": "Volume Level",
+ "You aborted the media playback": "You aborted the media playback",
+ "A network error caused the media download to fail part-way.": "A network error caused the media download to fail part-way.",
+ "The media could not be loaded, either because the server or network failed or because the format is not supported.": "The media could not be loaded, either because the server or network failed or because the format is not supported.",
+ "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.": "The media playback was aborted due to a corruption problem or because the media used features your browser did not support.",
+ "No compatible source was found for this media.": "No compatible source was found for this media.",
+ "The media is encrypted and we do not have the keys to decrypt it.": "The media is encrypted and we do not have the keys to decrypt it.",
+ "Play Video": "Play Video",
+ "Close": "Close",
+ "Close Modal Dialog": "Close Modal Dialog",
+ "Modal Window": "Modal Window",
+ "This is a modal window": "This is a modal window",
+ "This modal can be closed by pressing the Escape key or activating the close button.": "This modal can be closed by pressing the Escape key or activating the close button.",
+ ", opens captions settings dialog": ", opens captions settings dialog",
+ ", opens subtitles settings dialog": ", opens subtitles settings dialog",
+ ", opens descriptions settings dialog": ", opens descriptions settings dialog",
+ ", selected": ", selected",
+ "captions settings": "captions settings",
+ "subtitles settings": "subititles settings",
+ "descriptions settings": "descriptions settings",
+ "Text": "Text",
+ "White": "White",
+ "Black": "Black",
+ "Red": "Red",
+ "Green": "Green",
+ "Blue": "Blue",
+ "Yellow": "Yellow",
+ "Magenta": "Magenta",
+ "Cyan": "Cyan",
+ "Background": "Background",
+ "Window": "Window",
+ "Transparent": "Transparent",
+ "Semi-Transparent": "Semi-Transparent",
+ "Opaque": "Opaque",
+ "Font Size": "Font Size",
+ "Text Edge Style": "Text Edge Style",
+ "None": "None",
+ "Raised": "Raised",
+ "Depressed": "Depressed",
+ "Uniform": "Uniform",
+ "Dropshadow": "Dropshadow",
+ "Font Family": "Font Family",
+ "Proportional Sans-Serif": "Proportional Sans-Serif",
+ "Monospace Sans-Serif": "Monospace Sans-Serif",
+ "Proportional Serif": "Proportional Serif",
+ "Monospace Serif": "Monospace Serif",
+ "Casual": "Casual",
+ "Script": "Script",
+ "Small Caps": "Small Caps",
+ "Reset": "Reset",
+ "restore all settings to the default values": "restore all settings to the default values",
+ "Done": "Done",
+ "Caption Settings Dialog": "Caption Settings Dialog",
+ "Beginning of dialog window. Escape will cancel and close the window.": "Beginning of dialog window. Escape will cancel and close the window.",
+ "End of dialog window.": "End of dialog window.",
+ "{1} is loading.": "{1} is loading."
+});
+
+    });
+});;
+require(["filter_syntaxhighlighter/hljs"], function(amd) { amd.initHighlighting(); });;
+
+require(['jquery'], function($) {
+    $('#single_select5c370f89d43493').change(function() {
+        var ignore = $(this).find(':selected').attr('data-ignore');
+        if (typeof ignore === typeof undefined) {
+            $('#single_select_f5c370f89d43492').submit();
+        }
+    });
+});
+;
+
+require(['jquery', 'message_popup/message_popover_controller'], function($, controller) {
+    var container = $('#nav-message-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+require(['jquery', 'message_popup/notification_popover_controller'], function($, controller) {
+    var container = $('#nav-notification-popover-container');
+    var controller = new controller(container);
+    controller.registerEventListeners();
+    controller.registerListNavigationEventListeners();
+});
+;
+
+        require(['jquery'], function (jQuery) {
+            // Functions and code for Dictionary functionality
+
+            // function getSelected data will give the selected text
+            function getSelectedText() {
+                if (window.getSelection) {
+                    return window.getSelection().toString();
+                } else if (document.selection) {
+                    return document.selection.createRange().text;
+                }
+                return '';
+            }
+
+            // Event trigger for text selection
+            jQuery('body').mouseup(function(e){
+                var search = getSelectedText();
+                if(search.trim() == ""){
+                    return;
+                }
+                var obj = getSelectionCoords();
+                if(obj.x != 'undefined' && obj.y != 'undefined'){
+                    // var x = obj.x-152;
+                    var x = obj.x-122;
+                    x += 'px';
+                    // var y = obj.y+12;
+                    var y = obj.y+17;
+                    y += 'px';
+                    getWord(x,y,'headword',search);
+                }
+            });
+
+            // Ajax to fetch the word meaning
+            function getWord(x,y,token,search){
+                searchword = token+'='+search;
+                var url = "http://api.pearson.com/v2/dictionaries/entries?"+searchword;
+                var settings = {
+                    "async": true,
+                    "crossDomain": true,
+                    "url": url,
+                    "method": "GET",
+                    "success": function(response) {
+                  
+                        if(response != '' && response != null){
+                            jQuery("#definition_layer").remove();
+                        
+                            var meaning = 'No definition found.';
+                            var i=0;
+                            for(i=0;i<response.results.length;i++){
+                                if(response.results[i].senses[0].definition != null){
+                                    meaning = response.results[i].senses[0].definition;
+                                    break;
+                                }
+                            }
+                            var data = "<div id='definition_layer' style='position:fixed; cursor:pointer;left:"+x+";top:"+y+";z-index:9999;'>";
+                            data += '<div class="popover popover-bottom w-400"><div class="popover-arrow"></div><h3 class="popover-title">'+search;
+                            data += '</h3><div class="popover-content"><p>' + meaning + '</p></div></div>';
+                            data += '</div>';
+                            jQuery("body").append(data);    
+                            
+                        }
+                    },
+                    "failure": function(error) {
+                    
+                    }
+                }
+                jQuery.ajax(settings);
+            }
+
+            // Close the Tooltip Event
+            jQuery(window).scroll(function(){
+               jQuery("#definition_layer").remove();
+            });
+
+            jQuery('body').click(function(){
+                jQuery("#definition_layer").remove();
+            });
+
+            // Get location of selected text
+            function getSelectionCoords(win) {
+               win = win || window;
+               var doc = win.document;
+               var sel = doc.selection, range, rects, rect;
+               var x = 0, y = 0;
+               if (sel) {
+                if (sel.toString().trim() == "" || sel.toString().trim() == "undefined") {
+                      return false;
+                   }
+                   if (sel.type != "Control" && sel.toString != "") {
+                       range = sel.createRange();
+                       range.collapse(true);
+                       x = range.boundingLeft;
+                       y = range.boundingTop;
+                   }
+               } else if (win.getSelection) {
+                   sel = win.getSelection();
+                   console.log("SELECTED : "+sel.toString());
+                   if (sel.toString().trim() == "" || sel.toString().trim() == "undefined") {
+                      return false;
+                   }
+                   if (sel.rangeCount && sel.toString() != "") {
+                       range = sel.getRangeAt(0).cloneRange();
+                       if (range.getClientRects) {
+                           range.collapse(true);
+                           rects = range.getClientRects();
+                           if (rects.length > 0) {
+                               rect = rects[0];
+                           }
+                           x = rect.left;
+                           y = rect.top;
+                       }
+                       // Fall back to inserting a temporary element
+                       if (x == 0 && y == 0) {
+                           var span = doc.createElement("span");
+                           if (span.getClientRects) {
+                               // Ensure span has dimensions and position by
+                               // adding a zero-width space character
+                               span.appendChild( doc.createTextNode("\u200b") );
+                               range.insertNode(span);
+                               rect = span.getClientRects()[0];
+                               x = rect.left;
+                               y = rect.top;
+                               var spanParent = span.parentNode;
+                               spanParent.removeChild(span);
+
+                               // Glue any broken text nodes back together
+                               spanParent.normalize();
+                           }
+                       }
+                   }
+               }
+               return { x: x, y: y };
+            }
+        });
+
+;
+
+require(['theme_remui/loader', 'theme_remui/TimeCircles'], function (loader, TimeCircles) {
+    Breakpoints();
+
+    // quiz time circles for timed quizzes
+    jQuery("#quiztimer").TimeCircles({
+        time: {
+            Days: {
+                show: false
+            },
+            Hours: {
+                color: "#3c8dbc"
+            },
+            Minutes: {
+                color: "#00a65a"
+            },
+            Seconds: {
+                color: "#f56954"
+            }
+        },
+        bg_width: 0.9,
+        fg_width: 0.1,
+        circle_bg_color: "#797D82",
+        number_size: 0.24,
+        text_size: 0.11,
+        refresh_interval: 1,
+        animation_interval: "ticks"
+    }).addListener(quizTimeEllapsed);
+
+    // listner for quiz timer
+    function quizTimeEllapsed(unit, value, total) {
+        if (total <= 0) {
+            jQuery(this).fadeOut('medium').replaceWith('<div style="text-align: center; background: rgba(0, 0, 0, 0.13); border-radius: 5px; height: 80px; line-height: 80px; font-size: 18px; color: red;">' + M.util.get_string('timesup', 'quiz') + '</div>');
+        }
+    }
+});
+;
+require(["core/notification"], function(amd) { amd.init(10833, []); });;
+require(["core/log"], function(amd) { amd.setConfig({"level":"warn"}); });
+});
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+M.yui.add_module({"core_comment":{"name":"core_comment","fullpath":"https:\/\/james.codegym.vn\/lib\/javascript.php\/1545987165\/comment\/comment.js","requires":["base","io-base","node","json","yui2-animation","overlay","escape"]}});
+
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+M.str = {"moodle":{"lastmodified":"Last modified","name":"Name","error":"Error","info":"Information","yes":"Yes","no":"No","cancel":"Cancel","addcomment":"Add a comment...","comments":"Comments","commentscount":"Comments ({$a})","commentsrequirelogin":"You need to log in to view the comments.","deletecommentbyon":"Delete comment posted by {$a->user} on {$a->time}","confirm":"Confirm","areyousure":"Are you sure?","closebuttontitle":"Close","unknownerror":"Unknown error"},"repository":{"type":"Type","size":"Size","invalidjson":"Invalid JSON string","nofilesattached":"No files attached","filepicker":"File picker","logout":"Logout","nofilesavailable":"No files available","norepositoriesavailable":"Sorry, none of your current repositories can return files in the required format.","fileexistsdialogheader":"File exists","fileexistsdialog_editor":"A file with that name has already been attached to the text you are editing.","fileexistsdialog_filemanager":"A file with that name has already been attached","renameto":"Rename to \"{$a}\"","referencesexist":"There are {$a} alias\/shortcut files that use this file as their source","select":"Select"},"admin":{"confirmdeletecomments":"You are about to delete comments, are you sure?","confirmation":"Confirmation"}};
+//]]>
+</script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {Y.use("moodle-filter_mathjaxloader-loader",function() {M.filter_mathjaxloader.configure({"mathjaxconfig":"\nMathJax.Hub.Config({\n    config: [\"Accessible.js\", \"Safe.js\"],\n    errorSettings: { message: [\"!\"] },\n    skipStartupTypeset: true,\n    messageStyle: \"none\"\n});\n","lang":"en"});
+});
+M.util.help_popups.setup(Y);
+ M.util.js_pending('random5c370f89d43498'); Y.on('domready', function() {  M.util.js_pending('random5c370f89d43498'); Y.use('core_comment', function(Y) { M.core_comment.init(Y, {"client_id":"5c370f89e1654","commentarea":"submission_comments","itemid":"25307","page":0,"courseid":"26","contextid":10833,"component":"assignsubmission_comments","notoggle":false,"autostart":false});  M.util.js_complete('random5c370f89d43498'); });  M.util.js_complete('random5c370f89d43498'); });
+ M.util.js_pending('random5c370f89d434910'); Y.on('domready', function() { M.util.js_complete("init");  M.util.js_complete('random5c370f89d434910'); });
+})();
+//]]>
+</script>
+
+        </footer>    
+    
+    </body></html>

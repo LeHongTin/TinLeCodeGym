@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Hello</title>
+    <title>Ứng dụng chuyển đổi tiền </title>
 </head>
+
 <body>
-    <script src="viet.js"></script>
-    <script src="do.js"></script>
+    <p>Amount</p>
+    <input type="number" id="amount" style="height:20px" value="1"></input>
+
+    <p>From Currency</p>
+    <select id="fromCurrency">
+        <option value="txtVND">VietNam</option>
+        <option value="txtUSD">USD</option>
+        <option value="txtEURO">EURO</option>
+    </select>
+
+    <p>To Currency</p>
+    <select id="toCurrency">
+        <option value="txtVND2">VietNam</option>
+        <option value="txtUSD2">USD</option>
+        <option value="txtEURO2">EURO</option>
+    </select>
+
+    <p><input value="Convert" type="button" onclick="convert()"></p>
+    <p><span id="showConvert"></span></p>
+
+    <script src="index.js"></script>
 
 </body>
+
 </html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra số nguyên tó</title>
+</head>
+
+<body>
+    <h1>Hiển thị các số nguyên tố </h1>
+    <p>Nhập số lượng số nguyên tố :</p>
+    <input type="number" id="soluong">
+    <p><button onclick="abcd()">Hiển thị</button></p>
+    <p id="display"></p>
+</body>
+<script>
+    function abcd() {
+        var numb = document.getElementById("soluong").value;
+        var count = 0;
+        var n = 2;
+        var luu="";
+        while (count < numb) {
+            if (isPrime(n)) {
+                luu += n + "<br>";
+                count++;
+            }
+            n++;
+        }
+        document.getElementById("display").innerHTML = luu;
+    }
+    function isPrime(value) {
+        var result = value >= 2;
+        for (i = 2; i < value - 1; i++) {
+            if (value % i == 0) {
+                result = false;
+                break;
+            }
+        }
+        return result;
+    }
+</script>
+
+</html>
