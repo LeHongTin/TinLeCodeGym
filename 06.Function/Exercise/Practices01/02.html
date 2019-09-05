@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tang doi so</title>
+</head>
+
+<body>
+    <input type="number" value="0" id="initValue">
+    <input onclick="tang()" type="button" value="tang 1 la : ">
+    <p id="result"></p>
+    <script>
+        function tang() {
+            var value = document.getElementById("initValue").value;
+            value++;
+            document.getElementById("result").innerHTML = value;
+        }
+    </script>
+</body>
+
+
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tin Le CodeGym</title>
+</head>
+
+<body>
+    <script>
+        /*Tạo hàm nhận vào hai tham số. 
+        Nếu giá trị của tham số thứ nhất lớn hơn tham số thứ hai, hiển thị hộp thoại thông báo cho người dùng. 
+        Nếu giá trị của tham số thứ nhất nhỏ hơn hoặc bằng tham số thứ hai, trả về tổng của hai tham số.
+
+        */
+        function sosanh() {
+            var numb1 = parseInt(prompt("the first number :"));
+            var numb2 = parseInt(prompt("the second number :"));
+            if (numb1 > numb2) {
+                alert("good!")
+            } else {
+                document.write("tong la :", numb1 + numb2);
+            }
+        }
+        sosanh();
+    </script>
+</body>
+
+</html>

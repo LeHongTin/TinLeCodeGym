@@ -6,48 +6,47 @@ function Telephone(name) {
     this.memorySent = [];
     this.status = true;
     this.message;
-    console.log(this.pin)
 
     this.isTurnOn = function () {
         this.pinLoss();
         return this.status;
     }
 
-    this.turnOnOff = function() {
+    this.turnOnOff = function () {
         this.pinLoss();
         this.status = !this.status;
     }
 
-    this.chargePin = function(pin) {
+    this.chargePin = function (pin) {
         this.pin = pin;
     }
 
-    this.createMessage = function(drafMess) {
+    this.createMessage = function (drafMess) {
         this.pinLoss();
         this.message = drafMess;
         this.memoryDraf.push(drafMess);
     }
 
-    this.receiveMess = function(message) {
+    this.receiveMess = function (message) {
         this.pinLoss();
         this.memoryInbox.push(message);
     }
 
-    this.sendMess = function(toPhone) {
+    this.sendMess = function (toPhone) {
         this.pinLoss();
         toPhone.receiveMess(this.message);
         this.message = "";
         // this.drafMess.pull();
-    }   
+    }
 
-    this.showAllMessage = function() {
+    this.showAllMessage = function () {
         for (var i = 0; i < this.memoryInbox.length; i++) {
             document.write(this.memoryInbox[i] + "<br>");
         }
     }
 
-    this.pinLoss = function() {
-        this.pin --;
+    this.pinLoss = function () {
+        this.pin--;
     }
 }
 
@@ -61,7 +60,8 @@ nokia.sendMess(iPhone);
 iPhone.showAllMessage();
 
 iPhone.createMessage("Hello Nokia From Iphone");
+
+iPhone.sendMess(nokia);
+iPhone.createMessage("I am Iphone");
 iPhone.sendMess(nokia);
 nokia.showAllMessage();
-var pin1= iPhone.pin;
-document.write(pin1);

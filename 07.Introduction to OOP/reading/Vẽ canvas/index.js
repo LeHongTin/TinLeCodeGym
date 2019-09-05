@@ -11,6 +11,8 @@ function circle() {
     var ctx = document.getElementById("canvas2").getContext("2d");
     ctx.beginPath();
     ctx.arc(150, 100, 80, 0, 2 * Math.PI);
+    ctx.fillStyle="red";
+    ctx.fill();
     ctx.stroke();
 }
 circle();
@@ -26,3 +28,15 @@ function canvasText() {
 }
 canvasText();
 
+function hcn() {
+    var ctx = document.getElementById("canvas4").getContext("2d");
+    ctx.fillStyle = "yellow";
+    ctx.fillRect(10, 10, 200, 100);
+
+}
+
+hcn();
+
+var a = 5, b = 7, c;
+c = (a++ + ++b) ;
+document.getElementById("abc").innerHTML = c;
